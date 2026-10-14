@@ -3,9 +3,12 @@ import { CATALOG_DATA } from './data/catalogData';
 import Header from './components/Header';
 import ProductCard from './components/ProductCard';
 import ProductModal from './components/ProductModal';
+import StoryGallery from './components/StoryGallery';
+import PdfCatalogViewer from './components/PdfCatalogViewer';
 import Toast from './components/Toast';
 
 export default function App() {
+  const [activeTab, setActiveTab] = useState('stories'); // Default to the newly requested Stories page
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('all');
   const [activeModalProduct, setActiveModalProduct] = useState(null);
@@ -16,11 +19,8 @@ export default function App() {
     if (!text) return;
     navigator.clipboard.writeText(text).then(() => {
       setToastMessage(label);
-      setTimeout(() => {
-        setToastMessage(null);
-      }, 2500);
+      setTimeout(() => setToastMessage(null), 2500);
     }).catch(() => {
-      // Fallback
       const ta = document.createElement('textarea');
       ta.value = text;
       document.body.appendChild(ta);
@@ -28,13 +28,16 @@ export default function App() {
       document.execCommand('copy');
       document.body.removeChild(ta);
       setToastMessage(label);
-      setTimeout(() => {
-        setToastMessage(null);
-      }, 2500);
+      setTimeout(() => setToastMessage(null), 2500);
     });
   };
 
-  // Filter & Search
+  const handleToast = (msg) => {
+    setToastMessage(msg);
+    setTimeout(() => setToastMessage(null), 2500);
+  };
+
+  // Filter & Search for copyboard
   const filteredProducts = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
 
@@ -80,6 +83,8 @@ export default function App() {
   return (
     <>
       <Header
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         activeFilter={activeFilter}
@@ -92,26 +97,36 @@ export default function App() {
       />
 
       <main>
-        {filteredProducts.length > 0 ? (
-          <div className="products-grid">
-            {filteredProducts.map((item) => (
-              <ProductCard
-                key={item.sku}
-                item={item}
-                onCopy={handleCopy}
-                onOpenModal={setActiveModalProduct}
-              />
-            ))}
-          </div>
-        ) : (
-          <div style={{ textAlign: 'center', padding: '80px 20px', color: 'var(--text-muted)' }}>
-            <h3 style={{ fontSize: '20px', color: '#fff', marginBottom: '8px' }}>
-              Nenhum produto encontrado
-            </h3>
-            <p style={{ fontSize: '14px' }}>
-              Tente buscar por outro termo ou remova o filtro ativo.
-            </p>
-          </div>
+        {activeTab === 'stories' && (
+          <StoryGallery onToast={handleToast} />
+        )}
+
+        {activeTab === 'pdf' && (
+          <PdfCatalogViewer onToast={handleToast} />
+        )}
+
+        {activeTab === 'copyboard' && (
+          filteredProducts.length > 0 ? (
+            <div className="products-grid">
+              {filteredProducts.map((item) => (
+                <ProductCard
+                  key={item.sku}
+                  item={item}
+                  onCopy={handleCopy}
+                  onOpenModal={setActiveModalProduct}
+                />
+              ))}
+            </div>
+          ) : (
+            <div style={{ textAlign: 'center', padding: '80px 20px', color: 'var(--text-muted)' }}>
+              <h3 style={{ fontSize: '20px', color: '#fff', marginBottom: '8px' }}>
+                Nenhum produto encontrado
+              </h3>
+              <p style={{ fontSize: '14px' }}>
+                Tente buscar por outro termo ou remova o filtro ativo.
+              </p>
+            </div>
+          )
         )}
       </main>
 

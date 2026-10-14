@@ -1,0 +1,26 @@
+{
+  "numero": "445",
+  "nome": "PARADIGM",
+  "foto": "assets/perfume-445.jpg",
+  "marca": "BRAND COLLECTION",
+  "concentracao": "EAU DE PARFUM",
+  "volume": "25 ml",
+  "familia_olfativa": "FLORAL ORIENTAL",
+  "acordes": [
+    {"nome":"frutado","cor":"#f15c2e","intensidade":100},
+    {"nome":"floral branco","cor":"#f6adbd","intensidade":94,"claro":true},
+    {"nome":"atalcado","cor":"#ead0bf","intensidade":88,"claro":true},
+    {"nome":"doce","cor":"#e96660","intensidade":82},
+    {"nome":"âmbar","cor":"#d87c3f","intensidade":76},
+    {"nome":"almiscarado","cor":"#cdb6d7","intensidade":70,"claro":true},
+    {"nome":"amadeirado","cor":"#9b6b4a","intensidade":64},
+    {"nome":"cítrinos","cor":"#f7dd73","intensidade":58,"claro":true},
+    {"nome":"especiado suave","cor":"#c68d82","intensidade":52},
+    {"nome":"aromático","cor":"#758765","intensidade":46}
+  ],
+  "notas": {
+    "topo": {"ingredientes":"Bergamota, Pera, Frutas Vermelhas","ilustracao":"🍋 🍐"},
+    "coracao": {"ingredientes":"Jasmim, Flor de Laranjeira, Néroli","ilustracao":"🌼 🌿"},
+    "fundo": {"ingredientes":"Baunilha, Âmbar, Madeiras, Almíscar","ilustracao":"🌼 🪵"}
+  }
+}

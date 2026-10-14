@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=1920,initial-scale=1"><title>Catálogo de perfumes</title><link rel="stylesheet" href="template.css"></head>
+<body><main id="catalogo"></main>
+<script id="dados" type="application/json">{
+  "numero": "445",
+  "nome": "PARADIGM",
+  "foto": "assets/perfume-445.jpg",
+  "marca": "BRAND COLLECTION",
+  "concentracao": "EAU DE PARFUM",
+  "volume": "25 ml",
+  "familia_olfativa": "FLORAL ORIENTAL",
+  "acordes": [
+    {"nome":"frutado","cor":"#f15c2e","intensidade":100},
+    {"nome":"floral branco","cor":"#f6adbd","intensidade":94,"claro":true},
+    {"nome":"atalcado","cor":"#ead0bf","intensidade":88,"claro":true},
+    {"nome":"doce","cor":"#e96660","intensidade":82},
+    {"nome":"âmbar","cor":"#d87c3f","intensidade":76},
+    {"nome":"almiscarado","cor":"#cdb6d7","intensidade":70,"claro":true},
+    {"nome":"amadeirado","cor":"#9b6b4a","intensidade":64},
+    {"nome":"cítrinos","cor":"#f7dd73","intensidade":58,"claro":true},
+    {"nome":"especiado suave","cor":"#c68d82","intensidade":52},
+    {"nome":"aromático","cor":"#758765","intensidade":46}
+  ],
+  "notas": {
+    "topo": {"ingredientes":"Bergamota, Pera, Frutas Vermelhas","ilustracao":"🍋 🍐"},
+    "coracao": {"ingredientes":"Jasmim, Flor de Laranjeira, Néroli","ilustracao":"🌼 🌿"},
+    "fundo": {"ingredientes":"Baunilha, Âmbar, Madeiras, Almíscar","ilustracao":"🌼 🪵"}
+  }
+}
+</script>
+<script>
+'use strict';
+const perfume = window.PERFUME_DATA || JSON.parse(document.getElementById('dados').textContent);
+const escapeHtml = x => String(x ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const stripUnsafePath=x=>String(x||'').replace(/["<>]/g,'');
+function render(perfume){
+  const accords = (perfume.acordes || []).slice(0,10).map(a=>`<div class="accord-bar ${a.claro?'light':''}" style="background:${/^#[0-9a-f]{6}$/i.test(a.cor)?a.cor:'#957a6b'};width:${Math.max(35,Math.min(100,+a.intensidade||50))}%">${escapeHtml(a.nome)}</div>`).join('');
+  const note=(key,label)=>{const n=perfume.notas?.[key]||{};return `<section class="notes-col ${n.ilustracao?'':'note-col-empty'}"><h3>${label}</h3><div class="note-illustration">${escapeHtml(n.ilustracao||'')}</div><div class="note-text">${escapeHtml(n.ingredientes||'Não informado')}</div></section>`};
+  return `<article class="catalog-page">
+    <div class="photo"><img src="${stripUnsafePath(perfume.foto)}" alt="Foto original do perfume ${escapeHtml(perfume.nome)}"><div class="photo-soften"></div></div>
+    <header class="brand-title"><div class="brand">BRAND</div><div class="collection">COLLECTION</div></header>
+    <div class="slogan"><div class="crown">♛</div><div class="copy">FRAGRÂNCIAS<br>QUE INSPIRAM<br>SUA ESSÊNCIA</div></div>
+    <section class="product-detail"><div class="number-box"><span>Nº</span>${escapeHtml(perfume.numero)}</div><h1 class="product-name" style="font-size:${String(perfume.nome||'').length>13?'42':'58'}px">${escapeHtml(perfume.nome)}</h1><div class="gold-rule"></div><div class="edp">${escapeHtml(perfume.concentracao||'')}</div><div class="specs"><div class="spec"><span class="symbol">♙</span><div class="val">${escapeHtml(perfume.volume||'25 ml')}</div><div class="sub">Volume</div></div><div class="spec"><span class="symbol">◇</span><div class="val">${escapeHtml(perfume.concentracao||'')}</div><div class="sub">Concentração</div></div><div class="spec"><span class="symbol">◷</span><div class="val">PERFUME</div><div class="sub">Fragrância</div></div></div></section>
+    <section class="accord-card"><h2>Principais acordes</h2><div class="accord-bars">${accords}</div></section>
+    <footer class="notes-panel"><section class="notes-col"><h3>Família olfativa</h3><div class="family-icon">✿</div><div class="family-name">${escapeHtml(perfume.familia_olfativa||'Não informada')}</div></section>${note('topo','Notas de topo')}${note('coracao','Notas de coração')}${note('fundo','Notas de fundo')}</footer>
+    <small class="foot-brand">CATÁLOGO DE FRAGRÂNCIAS</small>
+  </article>`;
+}
+document.getElementById('catalogo').innerHTML=(Array.isArray(perfume)?perfume:[perfume]).map(render).join('');
+</script></body></html>

@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1920, initial-scale=1.0">
+  <title>Catálogo Story Snack Store BH</title>
+  <style>
+    :root {
+      --gold: #b98639;
+      --gold-light: #d6aa64;
+      --brown: #51351f;
+      --cream: #faf7f1;
+      --card-bg: rgba(255, 255, 255, 0.92);
+      --text: #211a16;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 1080px;
+      height: 1920px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #141210;
+      font-family: var(--sans);
+      color: var(--text);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .story-page {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      background: linear-gradient(180deg, #fbf8f4 0%, #f6f0e8 100%);
+      color: var(--text);
+      isolation: isolate;
+      overflow: hidden;
+    }
+
+    /* FOTO ORIGINAL - HERO AREA */
+    .hero-photo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1080px;
+      height: 980px;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 46%;
+      filter: contrast(1.04) saturate(1.06) brightness(1.04);
+      -webkit-mask-image: linear-gradient(
+        to bottom,
+        #000 0%,
+        #000 68%,
+        rgba(0, 0, 0, 0.85) 80%,
+        rgba(0, 0, 0, 0.4) 91%,
+        transparent 100%
+      );
+      mask-image: linear-gradient(
+        to bottom,
+        #000 0%,
+        #000 68%,
+        rgba(0, 0, 0, 0.85) 80%,
+        rgba(0, 0, 0, 0.4) 91%,
+        transparent 100%
+      );
+    }
+
+    .hero-soften {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(20, 15, 10, 0.08) 0%, transparent 40%);
+      pointer-events: none;
+    }
+
+    /* CABEÇALHO */
+    .story-header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 4;
+      text-align: center;
+      color: #191410;
+      pointer-events: none;
+      padding-top: 36px;
+      padding-bottom: 30px;
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.88) 0%,
+        rgba(255, 255, 255, 0.72) 65%,
+        transparent 100%
+      );
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+
+    .story-header .crown {
+      font-size: 40px;
+      line-height: 1;
+      color: var(--gold);
+      margin-bottom: 4px;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+    }
+
+    .story-header h1 {
+      font-family: var(--serif);
+      font-size: 88px;
+      font-weight: 500;
+      letter-spacing: 12px;
+      line-height: 1;
+      margin: 0;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    }
+
+    .brand-subtitle {
+      display: inline-block;
+      font-family: var(--serif);
+      font-size: 36px;
+      letter-spacing: 11px;
+      border-top: 2px solid #281c12;
+      padding-top: 6px;
+      margin-top: 4px;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    }
+
+    .header-slogan {
+      font-family: var(--serif);
+      font-size: 15px;
+      letter-spacing: 4px;
+      color: #694a2b;
+      margin-top: 8px;
+      text-transform: uppercase;
+    }
+
+    /* CONTEÚDO STORY (MEIO) */
+    .story-content {
+      position: absolute;
+      inset: 0;
+      z-index: 3;
+      pointer-events: none;
+    }
+
+    .story-details {
+      position: absolute;
+      top: 960px;
+      left: 0;
+      width: 1080px;
+      height: 590px;
+    }
+
+    /* IDENTIDADE DO PRODUTO (LADO ESQUERDO) */
+    .product-identity {
+      position: absolute;
+      top: 10px;
+      left: 45px;
+      width: 440px;
+      text-align: center;
+    }
+
+    .product-number {
+      display: inline-block;
+      border: 3px double var(--gold);
+      padding: 10px 24px;
+      font-family: var(--serif);
+      font-size: 46px;
+      line-height: 1;
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 4px 15px rgba(185, 134, 57, 0.12);
+      border-radius: 4px;
+    }
+
+    .product-number span {
+      font-size: 32px;
+      margin-right: 4px;
+      color: #835c27;
+    }
+
+    .product-name {
+      font-family: var(--serif);
+      font-size: 50px;
+      line-height: 1.08;
+      margin: 18px 0 10px;
+      text-transform: uppercase;
+      color: #1a1410;
+      letter-spacing: 1px;
+      word-break: break-word;
+    }
+
+    .gold-divider {
+      height: 2px;
+      width: 70%;
+      margin: 0 auto 12px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+
+    .product-edp {
+      font-family: var(--serif);
+      font-size: 21px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #5d4229;
+    }
+
+    /* ESPECIFICAÇÕES */
+    .product-specs {
+      margin-top: 32px;
+      display: flex;
+      justify-content: space-around;
+      padding: 16px 10px;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 16px;
+      border: 1px solid rgba(214, 170, 100, 0.25);
+    }
+
+    .spec-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .spec-icon {
+      font-size: 26px;
+      color: #7b5327;
+      line-height: 1;
+    }
+
+    .spec-item strong {
+      font-size: 19px;
+      font-weight: 600;
+      color: #211a16;
+    }
+
+    .spec-item span {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #7c6858;
+    }
+
+    /* ACORDES (LADO DIREITO) */
+    .accords-panel {
+      position: absolute;
+      right: 45px;
+      top: 10px;
+      width: 510px;
+      height: 560px;
+      padding: 22px 24px;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(214, 170, 100, 0.35);
+      box-shadow: 0 12px 35px rgba(60, 35, 20, 0.06);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .accords-panel h3 {
+      font-family: var(--serif);
+      font-size: 38px;
+      font-weight: 500;
+      margin: 0 0 16px;
+      letter-spacing: -0.5px;
+      color: #241912;
+    }
+
+    .accord-bars {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1;
+      justify-content: flex-start;
+    }
+
+    .accord-bar {
+      display: flex;
+      align-items: center;
+      height: 38px;
+      padding: 0 15px;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 21px;
+      font-weight: 500;
+      white-space: nowrap;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+      min-width: 35%;
+      max-width: 100%;
+    }
+
+    .accord-bar.light {
+      color: #231c19;
+      text-shadow: none;
+    }
+
+    /* BASE OLFATIVA (INFERIOR) */
+    .olfactory-panel {
+      position: absolute;
+      left: 45px;
+      right: 45px;
+      bottom: 60px;
+      height: 290px;
+      padding: 20px 24px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(200, 165, 112, 0.4);
+      border-radius: 26px;
+      box-shadow: 0 10px 30px rgba(60, 35, 20, 0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .olfactory-family {
+      text-align: center;
+      border-bottom: 1px solid rgba(185, 134, 57, 0.25);
+      padding-bottom: 10px;
+    }
+
+    .olfactory-family h3 {
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: normal;
+      color: #553e2c;
+      margin-bottom: 4px;
+    }
+
+    .olfactory-family p {
+      font-family: var(--serif);
+      font-size: 22px;
+      color: #8b5527;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .notes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      text-align: center;
+      padding-top: 6px;
+    }
+
+    .note-col {
+      padding: 4px 10px;
+      border-right: 1px solid rgba(185, 134, 57, 0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .note-col:last-child {
+      border-right: none;
+    }
+
+    .note-col h4 {
+      font-family: var(--serif);
+      font-size: 21px;
+      font-weight: 600;
+      color: #3f2a1b;
+      margin-bottom: 4px;
+      white-space: nowrap;
+    }
+
+    .note-emoji {
+      font-size: 32px;
+      line-height: 1.2;
+      height: 40px;
+      margin-bottom: 4px;
+    }
+
+    .note-text {
+      font-family: var(--serif);
+      font-size: 17px;
+      line-height: 1.25;
+      color: #2b221a;
+      overflow-wrap: break-word;
+      max-width: 270px;
+    }
+
+    /* RODAPÉ STORY */
+    .story-footer {
+      position: absolute;
+      bottom: 16px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      z-index: 4;
+      font-size: 14px;
+      letter-spacing: 2px;
+      color: rgba(70, 48, 25, 0.65);
+      font-family: var(--sans);
+    }
+
+    .story-page,
+    .story-page * {
+      animation: none !important;
+      transition: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="story-mount"></div>
+
+  <script>
+    'use strict';
+
+    const escapeHtml = x => String(x ?? '').replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+
+    const stripUnsafePath = x => String(x || '').replace(/["<>]/g, '');
+
+    window.renderStory = function(perfume) {
+      const accords = (perfume.acordes || []).slice(0, 10).map(a => 
+        `<div class="accord-bar ${a.claro ? 'light' : ''}" style="background:${/^#[0-9a-f]{6}$/i.test(a.cor) ? a.cor : '#957a6b'};width:${Math.max(35, Math.min(100, +a.intensidade || 50))}%;">${escapeHtml(a.nome)}</div>`
+      ).join('');
+
+      const note = (key, label) => {
+        const n = perfume.notas?.[key] || {};
+        return `<div class="note-col">
+          <h4>${label}</h4>
+          <div class="note-emoji">${n.ilustracao || '✨'}</div>
+          <p class="note-text">${escapeHtml(n.ingredientes || 'Não informado')}</p>
+        </div>`;
+      };
+
+      const brandWord = perfume.isArabic ? 'ARABIC' : 'BRAND';
+      const nameLen = String(perfume.nome || '').length;
+      const fontSize = nameLen > 22 ? '36' : (nameLen > 15 ? '42' : '48');
+
+      const photoSrc = perfume.fotoAbsoluta || perfume.foto;
+
+      const html = `<main class="story-page">
+        <div class="hero-photo">
+          <img class="hero-image" src="${stripUnsafePath(photoSrc)}" alt="Perfume ${escapeHtml(perfume.nome)}" loading="eager">
+          <div class="hero-soften"></div>
+        </div>
+
+        <header class="story-header">
+          <div class="crown">♛</div>
+          <h1>${brandWord}</h1>
+          <span class="brand-subtitle">COLLECTION</span>
+          <div class="header-slogan">Fragrâncias que inspiram sua essência</div>
+        </header>
+
+        <section class="story-content">
+          <div class="story-details">
+            <div class="product-identity">
+              <div class="product-number"><span>Nº</span>${escapeHtml(perfume.numero)}</div>
+              <h2 class="product-name" style="font-size: ${fontSize}px;">${escapeHtml(perfume.nome)}</h2>
+              <div class="gold-divider"></div>
+              <p class="product-edp">${escapeHtml(perfume.concentracao || 'EAU DE PARFUM')}</p>
+
+              <div class="product-specs">
+                <div class="spec-item">
+                  <span class="spec-icon">♙</span>
+                  <strong>${escapeHtml(perfume.volume || '25 ml')}</strong>
+                  <span>Volume</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-icon">◇</span>
+                  <strong>${escapeHtml(perfume.concentracao || 'EDP')}</strong>
+                  <span>Concentração</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-icon">◷</span>
+                  <strong>PERFUME</strong>
+                  <span>Fragrância</span>
+                </div>
+              </div>
+            </div>
+
+            <section class="accords-panel">
+              <h3>Principais acordes</h3>
+              <div class="accord-bars">
+                ${accords}
+              </div>
+            </section>
+          </div>
+
+          <section class="olfactory-panel">
+            <div class="olfactory-family">
+              <h3>Família olfativa</h3>
+              <p>${escapeHtml(perfume.familia_olfativa || 'Não informada')}</p>
+            </div>
+
+            <div class="notes-grid">
+              ${note('topo', 'Notas de topo')}
+              ${note('coracao', 'Notas de coração')}
+              ${note('fundo', 'Notas de fundo')}
+            </div>
+          </section>
+
+          <footer class="story-footer">
+            SNACK STORE BH • CATÁLOGO DE FRAGRÂNCIAS 25ML
+          </footer>
+        </section>
+      </main>`;
+
+      document.getElementById('story-mount').innerHTML = html;
+    };
+  </script>
+</body>
+</html>

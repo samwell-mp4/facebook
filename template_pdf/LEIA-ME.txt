@@ -1,0 +1,23 @@
+TEMPLATE PARA CATÁLOGO DE PERFUMES — ANTIGRAVITY
+
+Arquivos:
+- template.html: modelo HTML para renderização em lote (dados de demonstração embutidos).
+- template.css: layout 1920 x 1080px em CSS, @page sem margens e cores de impressão preservadas.
+- dados-exemplo.json: formato de dados de cada perfume (OS ACORDES E NOTAS SÃO APENAS ILUSTRATIVOS, CONFIRMAR PARA CADA PERFUME).
+- assets/perfume-445.jpg: foto original fornecida, não gerada.
+
+Para preencher com dados reais, inserir window.PERFUME_DATA = objeto ou array de objetos antes do script final do HTML, ou substituir o conteúdo do script type=application/json id=dados para cada renderização.
+
+Todos os caminhos de foto devem ser URLs HTTPS acessíveis ao navegador do servidor ou caminhos relativos disponíveis na pasta.
+
+PDF Chromium / Playwright:
+await page.setViewportSize({ width: 1920, height: 1080 });
+await page.goto('file:///CAMINHO/ABSOLUTO/template.html', {waitUntil:'networkidle'});
+await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map(i=>i.complete?null:new Promise(r=>{i.onload=r;i.onerror=r}))); });
+await page.pdf({path:'catalogo.pdf', width:'20in', height:'11.25in', printBackground:true, preferCSSPageSize:true, margin:{top:'0',bottom:'0',left:'0',right:'0'}});
+
+Observações:
+- O efeito fade é CSS ::after e nunca modifica os pixels da foto original.
+- Não inventar notas, acordes, fixação, duração ou atributos do perfume.
+- Fotos sempre originais. A seção esquerda é recortada via object-fit cover; ajustar object-position para cada foto se necessário.
+- Para lote completo, uma página por perfume. Máximo 10 acordes; textos muito longos devem ser encurtados de forma fiel.
