@@ -1,0 +1,12 @@
+node_modules
+dist
+dist-ssr
+*.local
+.gemini
+scratch
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignora pastas de imagens duplicadas dentro da pasta da extensão Chrome (as originais já estão na raiz)
+automacao-whatsapp/extensao-chrome/[0-9]*

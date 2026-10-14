@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Snack Store BH - Auto Catálogo WhatsApp",
+  "version": "1.3.0",
+  "description": "Automação oficial da Snack Store BH para cadastrar perfumes no Catálogo do WhatsApp Business.",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ],
+      "js": [
+        "produtos_data.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "*",
+        "*/*",
+        "*/*/*"
+      ],
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ]
+    }
+  ]
+}
