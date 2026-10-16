@@ -12,7 +12,11 @@ export default function ProductCard({ item, onCopy, onOpenModal }) {
     }, 1500);
   };
 
-  const coverSrc = item.coverImage ? `/${encodeURI(item.coverImage)}` : '';
+  const coverSrc = rawCover
+    ? (rawCover.startsWith('data:') || rawCover.startsWith('http') || rawCover.startsWith('blob:')
+        ? rawCover
+        : `/${encodeURI(rawCover.replace(/\.(jpg|jpeg|png)$/i, '.webp'))}`)
+    : '';
 
   return (
     <div className="product-card">
@@ -58,6 +62,18 @@ export default function ProductCard({ item, onCopy, onOpenModal }) {
             Inspiração: <strong>{item.ref}</strong>
           </div>
           <span className="family-badge">{item.familia}</span>
+        </div>
+
+        {/* Pricing Strip */}
+        <div className="card-pricing-strip">
+          <div className="card-price-chip wholesale">
+            <span className="price-type">Atacado</span>
+            <span className="price-number">R$ {Number(item.precoAtacado || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+          </div>
+          <div className="card-price-chip retail">
+            <span className="price-type">Varejo</span>
+            <span className="price-number">R$ {Number(item.precoVarejo || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+          </div>
         </div>
 
         {/* Copy SKU */}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, X, Sparkles, Gem, Layers, Camera, Smartphone, FileText, ClipboardList } from 'lucide-react';
+import { Search, X, Sparkles, Gem, Layers, Camera, Smartphone, FileText, ClipboardList, ShieldCheck } from 'lucide-react';
 
 export default function Header({
   activeTab,
@@ -36,6 +36,15 @@ export default function Header({
 
         {/* Global Navigation Tabs */}
         <nav className="header-nav-tabs">
+          <button
+            className={`nav-tab-btn admin-nav-btn ${activeTab === 'admin' ? 'active' : ''}`}
+            onClick={() => setActiveTab('admin')}
+          >
+            <ShieldCheck size={16} />
+            <span>Central do Admin</span>
+            <span className="tab-pill-badge admin-badge">Custos & Preços</span>
+          </button>
+
           <button
             className={`nav-tab-btn ${activeTab === 'copyboard' ? 'active' : ''}`}
             onClick={() => setActiveTab('copyboard')}

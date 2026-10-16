@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { X, Download, ChevronLeft, ChevronRight, Sparkles, Gem, CheckCircle } from 'lucide-react';
+import { downloadImageAs } from '../utils/imageDownloader';
 
 export default function StoryModal({ item, allItems, onClose, onSelect, onToast }) {
   const currentIndex = allItems.findIndex((i) => i.sku === item.sku);
@@ -24,6 +25,17 @@ export default function StoryModal({ item, allItems, onClose, onSelect, onToast 
     link.click();
     document.body.removeChild(link);
     if (onToast) onToast(`Story ${item.filename} baixado! 📥`);
+  };
+
+  const handleDownloadFormat = async (format) => {
+    try {
+      if (onToast) onToast(`Preparando download em ${format.toUpperCase()}... ⏳`);
+      await downloadImageAs(item.path, item.filename, format);
+      if (onToast) onToast(`Story ${item.nome} baixado em ${format.toUpperCase()}! 📥`);
+    } catch (err) {
+      console.error(err);
+      if (onToast) onToast(`Erro no download: ${err.message}`);
+    }
   };
 
   // Keyboard navigation
@@ -66,7 +78,10 @@ export default function StoryModal({ item, allItems, onClose, onSelect, onToast 
         {/* Story Preview Column */}
         <div className="story-modal-preview">
           <img
-            src={item.path}
+            src={item.path ? item.path.replace(/\.png$/i, '.webp') : item.path}
+            onError={(e) => {
+              if (e.target.src !== item.path) e.target.src = item.path;
+            }}
             alt={`Story ${item.nome}`}
             className="story-modal-image"
           />
@@ -129,11 +144,33 @@ export default function StoryModal({ item, allItems, onClose, onSelect, onToast 
             </ul>
           </div>
 
-          <div className="story-sidebar-actions">
+          <div className="story-sidebar-actions" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             <button className="btn-primary-download" onClick={handleDownload}>
-              <Download size={18} />
-              <span>Baixar PNG Individual (1080×1920)</span>
+              <Download size={16} />
+              <span>Baixar PNG Original (1080×1920)</span>
             </button>
+
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+              <button
+                type="button"
+                className="btn-platform-secondary"
+                style={{ padding: '8px', fontSize: '12px', justifyContent: 'center' }}
+                onClick={() => handleDownloadFormat('jpeg')}
+                title="Converter e baixar em JPEG (ideal para WhatsApp)"
+              >
+                <Download size={13} /> Baixar JPEG
+              </button>
+
+              <button
+                type="button"
+                className="btn-platform-secondary"
+                style={{ padding: '8px', fontSize: '12px', justifyContent: 'center' }}
+                onClick={() => handleDownloadFormat('webp')}
+                title="Converter e baixar em WebP (super leve)"
+              >
+                <Download size={13} /> Baixar WebP
+              </button>
+            </div>
           </div>
 
           <div className="story-modal-counter">

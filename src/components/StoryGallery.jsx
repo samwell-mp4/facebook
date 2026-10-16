@@ -1,13 +1,22 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { STORIES_MANIFEST } from '../data/storiesManifest';
 import StoryCard from './StoryCard';
 import StoryModal from './StoryModal';
+import Pagination from './Pagination';
 import { Search, Download, Sparkles, Gem, Layers, CheckCircle2, X } from 'lucide-react';
 
 export default function StoryGallery({ onToast }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('all');
   const [activeStory, setActiveStory] = useState(null);
+
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageSize, setPageSize] = useState(12);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery, categoryFilter]);
 
   // Filter stories
   const filteredStories = useMemo(() => {
@@ -47,34 +56,27 @@ export default function StoryGallery({ onToast }) {
   };
 
   return (
-    <div className="story-gallery-page">
+    <div className="admin-tab-pane">
       {/* Top Banner / Actions */}
-      <div className="story-gallery-header">
-        <div className="story-header-text">
-          <div className="story-title-badge">
-            <span className="live-dot"></span> NOVO MODO DE CATÁLOGO
-          </div>
-          <h2>Stories Individuais <span>1080×1920</span></h2>
+      <div className="pane-header-row">
+        <div>
+          <h2>Stories Individuais & Criativos 1080×1920</h2>
           <p>
-            Imagens verticais individuais em resolução nativa (9:16), com a fotografia real tratada, pirâmide olfativa completa e acordes de cada fragrância.
+            Imagens verticais individuais em proporção nativa 9:16 com fotografia real tratada, pirâmide olfativa completa e acordes de cada fragrância.
           </p>
         </div>
 
-        <div className="story-header-actions">
-          <button className="btn-download-all-zip" onClick={handleDownloadZip}>
-            <Download size={18} />
-            <div className="btn-text">
-              <strong>Baixar Todos os 51 Stories (ZIP)</strong>
-              <span>Pacote completo pronto (49.3 MB)</span>
-            </div>
+        <div className="pane-header-actions">
+          <button className="btn-platform-primary" onClick={handleDownloadZip}>
+            <Download size={16} /> Baixar Todos os 51 Stories (ZIP - 49.3 MB)
           </button>
         </div>
       </div>
 
       {/* Controls: Search & Category Filter */}
-      <div className="story-gallery-controls">
-        <div className="search-input-box story-search-box">
-          <Search className="search-icon" size={17} />
+      <div className="prod-filter-bar-clean" style={{ flexWrap: 'wrap', gap: '10px' }}>
+        <div className="search-box-clean" style={{ flex: '1 1 280px' }}>
+          <Search size={15} />
           <input
             type="text"
             placeholder="Pesquisar story por nome, número (ex: 445, A007), inspiração ou família..."
@@ -82,46 +84,63 @@ export default function StoryGallery({ onToast }) {
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           {searchQuery && (
-            <button className="clear-search-btn" onClick={() => setSearchQuery('')}>
-              <X size={15} />
+            <button
+              type="button"
+              style={{ background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer' }}
+              onClick={() => setSearchQuery('')}
+            >
+              ✕
             </button>
           )}
         </div>
 
-        <div className="story-filter-pills">
+        <div className="category-chips-clean">
           <button
-            className={`filter-btn ${categoryFilter === 'all' ? 'active' : ''}`}
+            className={`cat-chip-btn ${categoryFilter === 'all' ? 'active' : ''}`}
             onClick={() => setCategoryFilter('all')}
           >
             Todos ({STORIES_MANIFEST.length})
           </button>
           <button
-            className={`filter-btn ${categoryFilter === 'arab' ? 'active' : ''}`}
+            className={`cat-chip-btn ${categoryFilter === 'arab' ? 'active' : ''}`}
             onClick={() => setCategoryFilter('arab')}
           >
-            <Sparkles size={13} /> Árabes ({arabicCount})
+            <Sparkles size={12} /> Árabes ({arabicCount})
           </button>
           <button
-            className={`filter-btn ${categoryFilter === 'brand' ? 'active' : ''}`}
+            className={`cat-chip-btn ${categoryFilter === 'brand' ? 'active' : ''}`}
             onClick={() => setCategoryFilter('brand')}
           >
-            <Gem size={13} /> Brand Collection ({brandCount})
+            <Gem size={12} /> Brand ({brandCount})
           </button>
         </div>
       </div>
 
       {/* Stories Grid */}
       {filteredStories.length > 0 ? (
-        <div className="stories-grid">
-          {filteredStories.map((item) => (
-            <StoryCard
-              key={item.sku}
-              item={item}
-              onOpenModal={setActiveStory}
-              onToast={onToast}
-            />
-          ))}
-        </div>
+        <>
+          <div className="stories-grid">
+            {filteredStories
+              .slice((currentPage - 1) * pageSize, currentPage * pageSize)
+              .map((item) => (
+                <StoryCard
+                  key={item.sku}
+                  item={item}
+                  onOpenModal={setActiveStory}
+                  onToast={onToast}
+                />
+              ))}
+          </div>
+
+          <Pagination
+            currentPage={currentPage}
+            totalItems={filteredStories.length}
+            pageSize={pageSize}
+            onPageChange={setCurrentPage}
+            onPageSizeChange={setPageSize}
+            pageSizeOptions={[12, 24, 48]}
+          />
+        </>
       ) : (
         <div className="empty-state">
           <h3>Nenhum Story encontrado</h3>

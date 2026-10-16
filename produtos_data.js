@@ -14,29 +14,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-01.jpg",
-        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-01.webp",
+        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-02.jpg",
-        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-02.webp",
+        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-03.jpg",
-        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-03.webp",
+        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-04.jpg",
-        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-04.webp",
+        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-05.jpg",
-        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-05.webp",
+        "relativePath": "1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/1 - ARABIC A007 FAKHAR PRETO/perfume-arabe-a007-fakhar-black-lattafa-ysl-y-edp-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -55,34 +55,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-01.jpg",
-        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-01.webp",
+        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-02.jpg",
-        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-02.webp",
+        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-03.jpg",
-        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-03.webp",
+        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-04.jpg",
-        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-04.webp",
+        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-05.jpg",
-        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-05.webp",
+        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-06.jpg",
-        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-06.jpg"
+        "fileName": "perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-06.webp",
+        "relativePath": "3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/3 - ARABIC A038 AMEER/perfume-arabe-a038-ameer-al-oudh-lattafa-intense-oud-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -101,34 +101,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-01.jpg",
-        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-01.webp",
+        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-02.jpg",
-        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-02.webp",
+        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-03.jpg",
-        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-03.webp",
+        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-04.jpg",
-        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-04.webp",
+        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-05.jpg",
-        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-05.webp",
+        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-06.jpg",
-        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-06.jpg"
+        "fileName": "perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-06.webp",
+        "relativePath": "4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/4 - ARABIC A019 CHIFRE/perfume-arabe-a019-al-noble-wazeer-lattafa-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -147,34 +147,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-01.jpg",
-        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-01.webp",
+        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-02.jpg",
-        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-02.webp",
+        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-03.jpg",
-        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-03.webp",
+        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-04.jpg",
-        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-04.webp",
+        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-05.jpg",
-        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-05.webp",
+        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-06.jpg",
-        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-06.jpg"
+        "fileName": "perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-06.webp",
+        "relativePath": "5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/5 - ARABIC A010/perfume-arabe-a010-oud-for-glory-badee-al-oud-lattafa-initio-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -193,39 +193,39 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-01.jpg",
-        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-01.webp",
+        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-02.jpg",
-        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-02.webp",
+        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-03.jpg",
-        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-03.webp",
+        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-04.jpg",
-        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-04.webp",
+        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-05.jpg",
-        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-05.webp",
+        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-06.jpg",
-        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-06.jpg"
+        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-06.webp",
+        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-06.webp"
       },
       {
-        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-07.jpg",
-        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-07.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-07.jpg"
+        "fileName": "perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-07.webp",
+        "relativePath": "6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-07.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/6 - ARABIC A032 DOCE MISTERIO/perfume-arabe-a032-doce-misterio-lattafa-nebras-25ml-edp-07.webp"
       }
     ],
     "imageCount": 7
@@ -244,34 +244,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-01.jpg",
-        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-01.webp",
+        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-02.jpg",
-        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-02.webp",
+        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-03.jpg",
-        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-03.webp",
+        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-04.jpg",
-        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-04.webp",
+        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-05.jpg",
-        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-05.webp",
+        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-06.jpg",
-        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-06.jpg"
+        "fileName": "perfume-arabe-a025-noble-blush-lattafa-25ml-edp-06.webp",
+        "relativePath": "7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/7 - ARABIC A025 BLUSH/perfume-arabe-a025-noble-blush-lattafa-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -290,34 +290,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-01.jpg",
-        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-01.webp",
+        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-02.jpg",
-        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-02.webp",
+        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-03.jpg",
-        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-03.webp",
+        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-04.jpg",
-        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-04.webp",
+        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-05.jpg",
-        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-05.webp",
+        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-06.jpg",
-        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-06.webp",
+        "relativePath": "8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/8 - BRAND 157 CHARLOTA/perfume-brand-collection-157-charlota-carolina-herrera-good-girl-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -336,29 +336,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-01.jpg",
-        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-01.webp",
+        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-02.jpg",
-        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-02.webp",
+        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-03.jpg",
-        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-03.webp",
+        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-04.jpg",
-        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-04.webp",
+        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-05.jpg",
-        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a001-asad-lattafa-25ml-edp-05.webp",
+        "relativePath": "9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/9 - ARABIC A001 ASAD/perfume-arabe-a001-asad-lattafa-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -377,29 +377,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-01.jpg",
-        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-01.webp",
+        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-02.jpg",
-        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-02.webp",
+        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-03.jpg",
-        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-03.webp",
+        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-04.jpg",
-        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-04.webp",
+        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-05.jpg",
-        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a033-yara-tous-lattafa-25ml-edp-05.webp",
+        "relativePath": "10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/10 - ARABIC A033 YARA/perfume-arabe-a033-yara-tous-lattafa-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -418,29 +418,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-01.jpg",
-        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-01.webp",
+        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-02.jpg",
-        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-02.webp",
+        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-03.jpg",
-        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-03.webp",
+        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-04.jpg",
-        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-04.webp",
+        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-05.jpg",
-        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-05.webp",
+        "relativePath": "11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/11 - ARABIC A002 YARA ROSA/perfume-arabe-a002-yara-rosa-lattafa-eau-de-parfum-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -459,39 +459,39 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-01.jpg",
-        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-01.webp",
+        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-02.jpg",
-        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-02.webp",
+        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-03.jpg",
-        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-03.webp",
+        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-04.jpg",
-        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-04.webp",
+        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-05.jpg",
-        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-05.webp",
+        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-06.jpg",
-        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-06.jpg"
+        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-06.webp",
+        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-06.webp"
       },
       {
-        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-07.jpg",
-        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-07.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-07.jpg"
+        "fileName": "perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-07.webp",
+        "relativePath": "12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-07.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/12 - ARABIC A006 FAKAR/perfume-arabe-a006-fakhar-rose-lattafa-25ml-edp-07.webp"
       }
     ],
     "imageCount": 7
@@ -510,29 +510,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-01.jpg",
-        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-01.webp",
+        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-02.jpg",
-        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-02.webp",
+        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-03.jpg",
-        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-03.webp",
+        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-04.jpg",
-        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-04.webp",
+        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-05.jpg",
-        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-05.webp",
+        "relativePath": "13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/13 - BRAND 073 POISON GIRL/perfume-brand-collection-073-poison-girl-christian-dior-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -551,34 +551,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-01.jpg",
-        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-01.webp",
+        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-02.jpg",
-        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-02.webp",
+        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-03.jpg",
-        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-03.webp",
+        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-04.jpg",
-        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-04.webp",
+        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-05.jpg",
-        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-05.webp",
+        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-06.jpg",
-        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-06.webp",
+        "relativePath": "14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/14 - BRAND 066 SILVER INTENSE/perfume-brand-collection-066-silver-scent-intense-jacques-bogart-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -597,34 +597,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-01.jpg",
-        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-01.webp",
+        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-02.jpg",
-        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-02.webp",
+        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-03.jpg",
-        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-03.webp",
+        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-04.jpg",
-        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-04.webp",
+        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-05.jpg",
-        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-05.webp",
+        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-06.jpg",
-        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-06.webp",
+        "relativePath": "15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/15 - BRAND 347 SKATEBOARD/perfume-brand-collection-347-skateboard-heroes-carolina-herrera-212-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -658,29 +658,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-01.jpg",
-        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-01.webp",
+        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-02.jpg",
-        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-02.webp",
+        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-03.jpg",
-        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-03.webp",
+        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-04.jpg",
-        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-04.webp",
+        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-05.jpg",
-        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-05.webp",
+        "relativePath": "17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/17 - BRAND 205 DIVINE/perfume-brand-collection-205-divine-jean-paul-gaultier-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -699,39 +699,39 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-01.jpg",
-        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-01.webp",
+        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-02.jpg",
-        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-02.webp",
+        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-03.jpg",
-        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-03.webp",
+        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-04.jpg",
-        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-04.webp",
+        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-05.jpg",
-        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-05.webp",
+        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-06.jpg",
-        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-06.webp",
+        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-06.webp"
       },
       {
-        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-07.jpg",
-        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-07.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-07.jpg"
+        "fileName": "perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-07.webp",
+        "relativePath": "18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-07.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/18 - BRAND 246 BURBERRY/perfume-brand-collection-246-burberry-her-eau-de-parfum-25ml-edp-07.webp"
       }
     ],
     "imageCount": 7
@@ -750,34 +750,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-01.jpg",
-        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-01.webp",
+        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-02.jpg",
-        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-02.webp",
+        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-03.jpg",
-        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-03.webp",
+        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-04.jpg",
-        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-04.webp",
+        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-05.jpg",
-        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-05.webp",
+        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-06.jpg",
-        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-06.webp",
+        "relativePath": "19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/19 - BRAND 427 ROBO/perfume-brand-collection-427-phantom-robo-paco-rabanne-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -796,34 +796,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-01.jpg",
-        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-01.webp",
+        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-02.jpg",
-        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-02.webp",
+        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-03.jpg",
-        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-03.webp",
+        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-04.jpg",
-        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-04.webp",
+        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-05.jpg",
-        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-05.webp",
+        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-06.jpg",
-        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-070-bleu-de-chanel-25ml-edp-06.webp",
+        "relativePath": "20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/20 - BRAND 070 BLEU CHANEL/perfume-brand-collection-070-bleu-de-chanel-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -842,34 +842,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-01.jpg",
-        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-01.webp",
+        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-02.jpg",
-        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-02.webp",
+        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-03.jpg",
-        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-03.webp",
+        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-04.jpg",
-        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-04.webp",
+        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-05.jpg",
-        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-05.webp",
+        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-06.jpg",
-        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-06.webp",
+        "relativePath": "21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/21 - BRAND 402 ERBA PURA/perfume-brand-collection-402-erba-pura-xerjoff-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -888,34 +888,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-01.jpg",
-        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-01.webp",
+        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-02.jpg",
-        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-02.webp",
+        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-03.jpg",
-        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-03.webp",
+        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-04.jpg",
-        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-04.webp",
+        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-05.jpg",
-        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-05.webp",
+        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-06.jpg",
-        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-06.webp",
+        "relativePath": "22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/22 - BRAND 001/perfume-brand-collection-001-allure-homme-sport-chanel-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -934,29 +934,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-01.jpg",
-        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-01.webp",
+        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-02.jpg",
-        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-02.webp",
+        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-03.jpg",
-        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-03.webp",
+        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-04.jpg",
-        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-04.webp",
+        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-05.jpg",
-        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-05.webp",
+        "relativePath": "23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/23 - BRAND 005 ONE MILLION/perfume-brand-collection-005-one-million-paco-rabanne-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -975,34 +975,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-01.jpg",
-        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-01.webp",
+        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-02.jpg",
-        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-02.webp",
+        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-03.jpg",
-        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-03.webp",
+        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-04.jpg",
-        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-04.webp",
+        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-05.jpg",
-        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-05.webp",
+        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-06.jpg",
-        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-06.webp",
+        "relativePath": "24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/24 - BRAND 446 SCANDAL INTENSE/perfume-brand-collection-446-scandal-intense-jean-paul-gaultier-le-parfum-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1021,34 +1021,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-01.jpg",
-        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-01.webp",
+        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-02.jpg",
-        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-02.webp",
+        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-03.jpg",
-        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-03.webp",
+        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-04.jpg",
-        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-04.webp",
+        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-05.jpg",
-        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-05.webp",
+        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-06.jpg",
-        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-06.webp",
+        "relativePath": "25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/25 - BRAND 296 PHANTOM/perfume-brand-collection-296-phantom-paco-rabanne-legion-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1067,34 +1067,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-01.jpg",
-        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-01.webp",
+        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-02.jpg",
-        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-02.webp",
+        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-03.jpg",
-        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-03.webp",
+        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-04.jpg",
-        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-04.webp",
+        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-05.jpg",
-        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-05.webp",
+        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-06.jpg",
-        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-06.webp",
+        "relativePath": "26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/26 - BRAND 323 ELIXIR/perfume-brand-collection-323b-sauvage-elixir-edicao-especial-dior-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1113,34 +1113,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-01.jpg",
-        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-01.webp",
+        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-02.jpg",
-        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-02.webp",
+        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-03.jpg",
-        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-03.webp",
+        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-04.jpg",
-        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-04.webp",
+        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-05.jpg",
-        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-05.webp",
+        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-06.jpg",
-        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-06.webp",
+        "relativePath": "27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/27 - BRAND 480 OLYMPEA ABSOLU/perfume-brand-collection-480-olympea-absolu-paco-rabanne-flora-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1159,39 +1159,39 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-01.jpg",
-        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-01.webp",
+        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-02.jpg",
-        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-02.webp",
+        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-03.jpg",
-        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-03.webp",
+        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-04.jpg",
-        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-04.webp",
+        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-05.jpg",
-        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-05.webp",
+        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-06.jpg",
-        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-06.webp",
+        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-06.webp"
       },
       {
-        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-07.jpg",
-        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-07.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-07.jpg"
+        "fileName": "perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-07.webp",
+        "relativePath": "28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-07.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/28 - BRAND 383 La Nuit Trésor Fleur de Nuit da Lancôme/perfume-brand-collection-383-la-nuit-tresor-fleur-de-nuit-lancome-25ml-edp-07.webp"
       }
     ],
     "imageCount": 7
@@ -1210,14 +1210,14 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-01.jpg",
-        "relativePath": "29 - BRAND 069 (La Nuit Night Flower)/perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/29 - BRAND 069 (La Nuit Night Flower)/perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-01.webp",
+        "relativePath": "29 - BRAND 069 (La Nuit Night Flower)/perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/29 - BRAND 069 (La Nuit Night Flower)/perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-02.jpg",
-        "relativePath": "29 - BRAND 069 (La Nuit Night Flower)/perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/29 - BRAND 069 (La Nuit Night Flower)/perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-02.webp",
+        "relativePath": "29 - BRAND 069 (La Nuit Night Flower)/perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/29 - BRAND 069 (La Nuit Night Flower)/perfume-brand-collection-069-la-nuit-tresor-diamant-lancome-25ml-edp-02.webp"
       }
     ],
     "imageCount": 2
@@ -1236,34 +1236,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-01.jpg",
-        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-01.webp",
+        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-02.jpg",
-        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-02.webp",
+        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-03.jpg",
-        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-03.webp",
+        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-04.jpg",
-        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-04.webp",
+        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-05.jpg",
-        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-05.webp",
+        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-06.jpg",
-        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-06.webp",
+        "relativePath": "30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/30 - BRAND 440 ROBO PHANTOM ELIXIR/perfume-brand-collection-440-phantom-elixir-paco-rabanne-parfum-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1282,29 +1282,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-01.jpg",
-        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-01.webp",
+        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-02.jpg",
-        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-02.webp",
+        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-03.jpg",
-        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-03.webp",
+        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-04.jpg",
-        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-04.webp",
+        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-05.jpg",
-        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-05.webp",
+        "relativePath": "31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/31 - BRAND 250 MOST WANTED MEN/perfume-brand-collection-250-the-most-wanted-azzaro-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -1323,29 +1323,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-01.jpg",
-        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-01.webp",
+        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-02.jpg",
-        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-02.webp",
+        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-03.jpg",
-        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-03.webp",
+        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-04.jpg",
-        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-04.webp",
+        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-05.jpg",
-        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-05.webp",
+        "relativePath": "32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/32 - BRAND NINA017/perfume-brand-collection-017-nina-maca-vermelha-nina-ricci-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -1364,39 +1364,39 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-01.jpg",
-        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-01.webp",
+        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-02.jpg",
-        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-02.webp",
+        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-03.jpg",
-        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-03.webp",
+        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-04.jpg",
-        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-04.webp",
+        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-05.jpg",
-        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-05.webp",
+        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-06.jpg",
-        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-06.webp",
+        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-06.webp"
       },
       {
-        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-07.jpg",
-        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-07.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-07.jpg"
+        "fileName": "perfume-brand-collection-445-paradoxe-prada-25ml-edp-07.webp",
+        "relativePath": "34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-07.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/34 - BRAND 445 PARADOXE/perfume-brand-collection-445-paradoxe-prada-25ml-edp-07.webp"
       }
     ],
     "imageCount": 7
@@ -1430,34 +1430,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-01.jpg",
-        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-01.webp",
+        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-02.jpg",
-        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-02.webp",
+        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-03.jpg",
-        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-03.webp",
+        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-04.jpg",
-        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-04.webp",
+        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-05.jpg",
-        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-05.webp",
+        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-06.jpg",
-        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-06.webp",
+        "relativePath": "36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/36 - BRAND 115 MIU MIU/perfume-brand-collection-115-miu-miu-eau-de-parfum-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1476,34 +1476,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-01.jpg",
-        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-01.webp",
+        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-02.jpg",
-        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-02.webp",
+        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-03.jpg",
-        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-03.webp",
+        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-04.jpg",
-        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-04.webp",
+        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-05.jpg",
-        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-05.webp",
+        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-06.jpg",
-        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-06.webp",
+        "relativePath": "37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/37 - BRAND 105 LADY MILLION/perfume-brand-collection-105-lady-million-paco-rabanne-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1522,34 +1522,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-01.jpg",
-        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-01.webp",
+        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-02.jpg",
-        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-02.webp",
+        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-03.jpg",
-        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-03.webp",
+        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-04.jpg",
-        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-04.webp",
+        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-05.jpg",
-        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-05.webp",
+        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-06.jpg",
-        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-06.webp",
+        "relativePath": "38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/38 - BRAND 028 HUGO BOSS/perfume-brand-collection-028-hugo-boss-bottled-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1568,34 +1568,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-01.jpg",
-        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-01.webp",
+        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-02.jpg",
-        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-02.webp",
+        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-03.jpg",
-        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-03.webp",
+        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-04.jpg",
-        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-04.webp",
+        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-05.jpg",
-        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-05.webp",
+        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-06.jpg",
-        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-06.webp",
+        "relativePath": "39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/39 - BRAND 361 Libre/perfume-brand-collection-361-libre-yves-saint-laurent-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1614,34 +1614,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-01.jpg",
-        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-01.webp",
+        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-02.jpg",
-        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-02.webp",
+        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-03.jpg",
-        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-03.webp",
+        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-04.jpg",
-        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-04.webp",
+        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-05.jpg",
-        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-05.webp",
+        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-06.jpg",
-        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-06.webp",
+        "relativePath": "40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/40 - BRAND 435 BURBERRY GODDESS/perfume-brand-collection-435-burberry-goddess-eau-de-parfum-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1660,34 +1660,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-01.jpg",
-        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-01.webp",
+        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-02.jpg",
-        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-02.webp",
+        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-03.jpg",
-        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-03.webp",
+        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-04.jpg",
-        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-04.webp",
+        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-05.jpg",
-        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-05.webp",
+        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-06.jpg",
-        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-06.webp",
+        "relativePath": "41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/41 - BRAND 087 OLYMPEA/perfume-brand-collection-087-olympea-classico-paco-rabanne-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1706,34 +1706,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-01.jpg",
-        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-01.webp",
+        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-02.jpg",
-        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-02.webp",
+        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-03.jpg",
-        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-03.webp",
+        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-04.jpg",
-        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-04.webp",
+        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-05.jpg",
-        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-05.webp",
+        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-06.jpg",
-        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-06.webp",
+        "relativePath": "42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/42 - BRAND 336 MY WAY/perfume-brand-collection-336-my-way-floral-giorgio-armani-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1752,29 +1752,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-01.jpg",
-        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-01.webp",
+        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-02.jpg",
-        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-02.webp",
+        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-03.jpg",
-        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-03.webp",
+        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-04.jpg",
-        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-04.webp",
+        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-05.jpg",
-        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-05.webp",
+        "relativePath": "43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/43 - BRAND 188/perfume-brand-collection-188-my-way-giorgio-armani-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -1793,34 +1793,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-01.jpg",
-        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-01.webp",
+        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-02.jpg",
-        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-02.webp",
+        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-03.jpg",
-        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-03.webp",
+        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-04.jpg",
-        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-04.webp",
+        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-05.jpg",
-        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-05.webp",
+        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-06.jpg",
-        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-06.webp",
+        "relativePath": "44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/44 - BRAND 012 LA VIE/perfume-brand-collection-012-la-vie-est-belle-lancome-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1839,34 +1839,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-01.jpg",
-        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-01.webp",
+        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-02.jpg",
-        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-02.webp",
+        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-03.jpg",
-        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-03.webp",
+        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-04.jpg",
-        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-04.webp",
+        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-05.jpg",
-        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-05.webp",
+        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-06.jpg",
-        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-06.webp",
+        "relativePath": "45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/45 - BRAND 214 INVICTUS VICTORY/perfume-brand-collection-214-invictus-victory-paco-rabanne-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1885,34 +1885,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-01.jpg",
-        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-01.webp",
+        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-02.jpg",
-        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-02.webp",
+        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-03.jpg",
-        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-03.webp",
+        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-04.jpg",
-        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-04.webp",
+        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-05.jpg",
-        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-05.webp",
+        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-06.jpg",
-        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-06.webp",
+        "relativePath": "47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/47 - BRAND 387 MOSTWANTED/perfume-brand-collection-387-the-most-wanted-azzaro-parfum-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -1946,29 +1946,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-01.jpg",
-        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-01.webp",
+        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-02.jpg",
-        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-02.webp",
+        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-03.jpg",
-        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-03.webp",
+        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-04.jpg",
-        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-04.webp",
+        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-05.jpg",
-        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-007-jadore-dior-25ml-edp-05.webp",
+        "relativePath": "49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/49 - BRAND 007 JADORE/perfume-brand-collection-007-jadore-dior-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -1987,34 +1987,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-01.jpg",
-        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-01.webp",
+        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-02.jpg",
-        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-02.webp",
+        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-03.jpg",
-        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-03.webp",
+        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-04.jpg",
-        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-04.webp",
+        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-05.jpg",
-        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-05.webp",
+        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-06.jpg",
-        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-238-idole-lancome-25ml-edp-06.webp",
+        "relativePath": "50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/50 - BRAND 238 IDOLE/perfume-brand-collection-238-idole-lancome-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -2033,29 +2033,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-01.jpg",
-        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-01.webp",
+        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-02.jpg",
-        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-02.webp",
+        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-03.jpg",
-        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-03.webp",
+        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-04.jpg",
-        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-04.webp",
+        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-05.jpg",
-        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-05.webp",
+        "relativePath": "51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/51 - BRAND 136 SCANDAL/perfume-brand-collection-136-scandal-jean-paul-gaultier-classico-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5
@@ -2074,49 +2074,49 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-01.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-01.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-02.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-02.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-03.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-03.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-04.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-04.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-05.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-05.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-06.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-06.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-06.webp"
       },
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-07.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-07.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-07.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-07.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-07.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-07.webp"
       },
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-08.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-08.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-08.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-08.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-08.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-08.webp"
       },
       {
-        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-09.jpg",
-        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-09.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-09.jpg"
+        "fileName": "perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-09.webp",
+        "relativePath": "52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-09.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/52 - BRAND 477/perfume-brand-collection-477-good-girl-blush-carolina-herrera-dazzling-garden-25ml-edp-09.webp"
       }
     ],
     "imageCount": 9
@@ -2135,34 +2135,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-01.jpg",
-        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-01.jpg"
+        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-01.webp",
+        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-02.jpg",
-        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-02.jpg"
+        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-02.webp",
+        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-03.jpg",
-        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-03.jpg"
+        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-03.webp",
+        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-04.jpg",
-        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-04.jpg"
+        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-04.webp",
+        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-05.jpg",
-        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-05.jpg"
+        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-05.webp",
+        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-06.jpg",
-        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-06.jpg"
+        "fileName": "perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-06.webp",
+        "relativePath": "53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/53 - A008 FAKHAR OURO/perfume-arabe-a008-fakhar-gold-lattafa-extrait-1-million-parfum-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -2181,34 +2181,34 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-01.jpg",
-        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-01.webp",
+        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-02.jpg",
-        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-02.webp",
+        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-03.jpg",
-        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-03.webp",
+        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-04.jpg",
-        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-04.webp",
+        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-05.jpg",
-        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-05.webp",
+        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-05.webp"
       },
       {
-        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-06.jpg",
-        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-06.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-06.jpg"
+        "fileName": "perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-06.webp",
+        "relativePath": "54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-06.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/54 - BRAND CAROLINA HERRERA 126/perfume-brand-collection-126-good-girl-carolina-herrera-25ml-edp-06.webp"
       }
     ],
     "imageCount": 6
@@ -2227,29 +2227,29 @@ const SNACK_WHATSAPP_PRODUCTS = [
     "country": "Brasil",
     "images": [
       {
-        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-01.jpg",
-        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-01.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-01.jpg"
+        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-01.webp",
+        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-01.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-01.webp"
       },
       {
-        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-02.jpg",
-        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-02.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-02.jpg"
+        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-02.webp",
+        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-02.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-02.webp"
       },
       {
-        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-03.jpg",
-        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-03.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-03.jpg"
+        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-03.webp",
+        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-03.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-03.webp"
       },
       {
-        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-04.jpg",
-        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-04.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-04.jpg"
+        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-04.webp",
+        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-04.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-04.webp"
       },
       {
-        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-05.jpg",
-        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-05.jpg",
-        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-05.jpg"
+        "fileName": "perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-05.webp",
+        "relativePath": "55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-05.webp",
+        "absolutePath": "c:/Users/User/Downloads/Catalogo Novo Snack Store BH-20261013T151552Z-1-001/Catalogo Novo Snack Store BH/55 - BRAND FAME 329/perfume-brand-collection-329-fame-couture-paco-rabanne-25ml-edp-05.webp"
       }
     ],
     "imageCount": 5

@@ -13,11 +13,16 @@ export default function StoryCard({ item, onOpenModal, onToast }) {
     if (onToast) onToast(`Story ${item.filename} baixado! 📥`);
   };
 
+  const previewImg = item.path ? item.path.replace(/\.png$/i, '.webp') : item.path;
+
   return (
     <div className="story-card" onClick={() => onOpenModal(item)}>
       <div className="story-thumbnail-wrapper">
         <img
-          src={item.path}
+          src={previewImg}
+          onError={(e) => {
+            if (e.target.src !== item.path) e.target.src = item.path;
+          }}
           alt={`Story ${item.nome}`}
           loading="lazy"
           className="story-thumbnail-img"

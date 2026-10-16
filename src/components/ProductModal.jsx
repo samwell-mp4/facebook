@@ -55,7 +55,9 @@ export default function ProductModal({ item, onClose, onCopy }) {
 
             <div className="gallery-grid">
               {images.map((img, idx) => {
-                const src = `/${encodeURI(img)}`;
+                const src = img.startsWith('data:') || img.startsWith('http') || img.startsWith('blob:')
+                  ? img
+                  : `/${encodeURI(img.replace(/\.(jpg|jpeg|png)$/i, '.webp'))}`;
                 return (
                   <div
                     key={idx}
@@ -67,6 +69,35 @@ export default function ProductModal({ item, onClose, onCopy }) {
                   </div>
                 );
               })}
+            </div>
+          </div>
+
+          {/* Pricing & Profit Box */}
+          <div className="modal-pricing-grid">
+            <div className="modal-price-card wholesale">
+              <span className="price-card-label">🏷️ Preço Atacado</span>
+              <span className="price-card-value">
+                R$ {Number(item.precoAtacado || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              </span>
+              <span className="price-card-desc">Para revendedores e compras no atacado</span>
+            </div>
+
+            <div className="modal-price-card retail">
+              <span className="price-card-label">🛍️ Preço Varejo (Sugerido)</span>
+              <span className="price-card-value">
+                R$ {Number(item.precoVarejo || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              </span>
+              <span className="price-card-desc">Preço de venda ao consumidor final</span>
+            </div>
+
+            <div className="modal-price-card profit">
+              <span className="price-card-label">💰 Lucro do Revendedor</span>
+              <span className="price-card-value">
+                +R$ {((Number(item.precoVarejo) || 0) - (Number(item.precoAtacado) || 0)).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              </span>
+              <span className="price-card-desc">
+                Margem de +{(((Number(item.precoVarejo) - Number(item.precoAtacado)) / (Number(item.precoAtacado) || 1)) * 100).toFixed(0)}% por frasco
+              </span>
             </div>
           </div>
 
