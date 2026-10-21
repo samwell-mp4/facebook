@@ -6,7 +6,7 @@ dotenv.config();
 const { Pool } = pg;
 
 // Connection string provided for internal cloud deployment
-const DEFAULT_DATABASE_URL = 'postgres://pg_snk_bnk:FAHDOIH2hiaoda2@@plug_sales_dispatch_app_pg_snk:5432/pg_snk?sslmode=disable';
+const DEFAULT_DATABASE_URL = 'postgres://pg_snk_bnk:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable';
 
 /**
  * Robust parser for PostgreSQL URLs that correctly handles passwords with special characters (like '@')

@@ -11,7 +11,7 @@ Tudo roda perfeitamente em produção no **Easypanel** com conexão interna ultr
 A URL interna informada já está configurada como padrão de fallback no backend:
 
 ```env
-DATABASE_URL=postgres://pg_snk_bnk:FAHDOIH2hiaoda2@@plug_sales_dispatch_app_pg_snk:5432/pg_snk?sslmode=disable
+DATABASE_URL=postgres://pg_snk_bnk:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable
 ```
 
 ### 📋 As 10 Tabelas Criadas Automaticamente:
@@ -50,7 +50,7 @@ Na aba **Environment**, adicione:
 ```env
 NODE_ENV=production
 PORT=80
-DATABASE_URL=postgres://pg_snk_bnk:FAHDOIH2hiaoda2@@plug_sales_dispatch_app_pg_snk:5432/pg_snk?sslmode=disable
+DATABASE_URL=postgres://pg_snk_bnk:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable
 ```
 *(Nota: O backend já possui essa URL como fallback padrão, mas declarar no painel é uma boa prática).*
 
