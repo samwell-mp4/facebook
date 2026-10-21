@@ -1,7 +1,10 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { CATALOG_DATA } from './data/catalogData';
 import { INITIAL_ORDERS } from './data/initialOrders';
 import { INITIAL_SUPPLIERS } from './data/initialSuppliers';
+import { INITIAL_EXPENSES } from './data/initialExpenses';
+import { INITIAL_PURCHASES } from './data/initialPurchases';
+import { api } from './services/api';
 import AdminCenter from './components/AdminCenter';
 import ProductModal from './components/ProductModal';
 import Toast from './components/Toast';
@@ -9,8 +12,20 @@ import Toast from './components/Toast';
 const STORAGE_KEY = 'snack_store_admin_products_v2';
 const ORDERS_STORAGE_KEY = 'snack_store_admin_orders_v2';
 const SUPPLIERS_STORAGE_KEY = 'snack_store_suppliers_v1';
+const EXPENSES_STORAGE_KEY = 'snack_store_expenses_v1';
+const PURCHASES_STORAGE_KEY = 'snack_store_stock_purchases_v1';
 
 export default function App() {
+  // Database connection & sync state
+  const [dbStatus, setDbStatus] = useState({
+    connected: false,
+    loading: true,
+    latency: null,
+    dbName: 'pg_snk',
+    host: 'plug_sales_dispatch_app_pg_snk',
+    lastSync: null
+  });
+
   // Load products with localStorage persistence
   const [products, setProducts] = useState(() => {
     try {
@@ -78,59 +93,6 @@ export default function App() {
     return INITIAL_ORDERS;
   });
 
-  const EXPENSES_STORAGE_KEY = 'snack_store_expenses_v1';
-  const PURCHASES_STORAGE_KEY = 'snack_store_stock_purchases_v1';
-
-  const INITIAL_EXPENSES = [
-    {
-      id: 'DESP-001',
-      descricao: 'Embalagens e Sacolas Personalizadas Snack Store',
-      categoria: 'Embalagens',
-      valor: 180.0,
-      data: '2026-10-10',
-      dataVencimento: '2026-10-10',
-      formaPagamento: 'pix',
-      status: 'pago',
-      observacao: 'Lote com 200 sacolas premium'
-    },
-    {
-      id: 'DESP-002',
-      descricao: 'Frete e Logística de Entrega (Motoboy BH)',
-      categoria: 'Frete',
-      valor: 75.0,
-      data: '2026-10-12',
-      dataVencimento: '2026-10-12',
-      formaPagamento: 'dinheiro',
-      status: 'pago',
-      observacao: 'Entregas rotas centro e pampulha'
-    },
-    {
-      id: 'DESP-003',
-      descricao: 'Tráfego Pago & Anúncios (Meta Ads / Instagram)',
-      categoria: 'Marketing',
-      valor: 150.0,
-      data: '2026-10-13',
-      dataVencimento: '2026-10-15',
-      formaPagamento: 'cartao',
-      status: 'pendente',
-      observacao: 'Campanha de atração perfumes árabes'
-    }
-  ];
-
-  const INITIAL_PURCHASES = [
-    {
-      id: 'COMPRA-001',
-      fornecedor: 'Distribuidora Oficial (Nota Fiscal de Compra)',
-      nf: 'NF-e 102941',
-      data: '2026-10-12',
-      qtdFrascos: 140,
-      valorTotal: 4484.07,
-      status: 'pago',
-      formaPagamento: 'boleto',
-      observacao: 'Lote inicial com 52 fragrâncias árabes e brand'
-    }
-  ];
-
   const [expenses, setExpenses] = useState(() => {
     try {
       const saved = localStorage.getItem(EXPENSES_STORAGE_KEY);
@@ -164,11 +126,95 @@ export default function App() {
     return INITIAL_SUPPLIERS;
   });
 
-  const [activeTab, setActiveTab] = useState('admin'); // Default to newly requested Admin Center
+  const [activeTab, setActiveTab] = useState('admin');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('all');
   const [activeModalProduct, setActiveModalProduct] = useState(null);
   const [toastMessage, setToastMessage] = useState(null);
+
+  // Sincronização em tempo real com o banco de dados PostgreSQL
+  const syncWithDatabase = async (showFeedback = false) => {
+    try {
+      setDbStatus((prev) => ({ ...prev, loading: true }));
+      const health = await api.getHealth();
+
+      if (health.database && health.database.connected) {
+        setDbStatus({
+          connected: true,
+          loading: false,
+          latency: health.database.latencyMs,
+          dbName: health.database.database,
+          host: health.database.config?.host || 'plug_sales_dispatch_app_pg_snk',
+          counts: health.counts,
+          lastSync: new Date().toLocaleTimeString('pt-BR')
+        });
+
+        // Atualiza todos os dados diretamente do PostgreSQL
+        const [dbProducts, dbOrders, dbSuppliers, dbExpenses, dbPurchases] = await Promise.all([
+          api.getProducts().catch(() => null),
+          api.getOrders().catch(() => null),
+          api.getSuppliers().catch(() => null),
+          api.getExpenses().catch(() => null),
+          api.getPurchases().catch(() => null)
+        ]);
+
+        if (Array.isArray(dbProducts) && dbProducts.length > 0) {
+          setProducts(dbProducts);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(dbProducts));
+        }
+        if (Array.isArray(dbOrders)) {
+          setOrders(dbOrders);
+          localStorage.setItem(ORDERS_STORAGE_KEY, JSON.stringify(dbOrders));
+        }
+        if (Array.isArray(dbSuppliers) && dbSuppliers.length > 0) {
+          setSuppliers(dbSuppliers);
+          localStorage.setItem(SUPPLIERS_STORAGE_KEY, JSON.stringify(dbSuppliers));
+        }
+        if (Array.isArray(dbExpenses) && dbExpenses.length > 0) {
+          setExpenses(dbExpenses);
+          localStorage.setItem(EXPENSES_STORAGE_KEY, JSON.stringify(dbExpenses));
+        }
+        if (Array.isArray(dbPurchases) && dbPurchases.length > 0) {
+          setStockPurchases(dbPurchases);
+          localStorage.setItem(PURCHASES_STORAGE_KEY, JSON.stringify(dbPurchases));
+        }
+
+        if (showFeedback) {
+          handleToast('🟢 Sincronizado com PostgreSQL pg_snk na nuvem!');
+        }
+      } else {
+        setDbStatus({
+          connected: false,
+          loading: false,
+          latency: null,
+          dbName: 'pg_snk',
+          host: 'plug_sales_dispatch_app_pg_snk',
+          offline: true,
+          error: health.database?.error
+        });
+        if (showFeedback) {
+          handleToast('🟡 Servidor local ativo. Banco na nuvem aguardando rede interna.');
+        }
+      }
+    } catch (e) {
+      setDbStatus({
+        connected: false,
+        loading: false,
+        latency: null,
+        dbName: 'pg_snk',
+        host: 'plug_sales_dispatch_app_pg_snk',
+        offline: true,
+        error: e.message
+      });
+      if (showFeedback) {
+        handleToast('🟡 Modo offline local ativo. Seus dados estão seguros!');
+      }
+    }
+  };
+
+  useEffect(() => {
+    syncWithDatabase(false);
+  }, []);
 
   // Copy to clipboard with Toast
   const handleCopy = (text, label = 'Copiado para a área de transferência! ✅') => {
@@ -248,6 +294,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.updateProduct(sku, updatedFields).catch((err) => console.warn('Sync updateProduct error:', err));
   };
 
   // Batch update of products
@@ -258,6 +306,7 @@ export default function App() {
     } catch (err) {
       console.error('Erro ao salvar no localStorage:', err);
     }
+    api.batchUpdateProducts(newProductsList).catch((err) => console.warn('Sync batchUpdate error:', err));
   };
 
   // Reset to original note values
@@ -268,6 +317,7 @@ export default function App() {
       console.error(e);
     }
     setProducts(CATALOG_DATA);
+    api.resetProducts().catch((err) => console.warn('Sync resetProducts error:', err));
     handleToast('Preços e custos restaurados para o padrão original da nota fiscal! 🔄');
   };
 
@@ -313,6 +363,7 @@ export default function App() {
       });
     }
 
+    api.saveOrder(newOrder).catch((err) => console.warn('Sync saveOrder error:', err));
     handleToast(`Pedido #${newOrder.id} salvo com sucesso! 📦✅`);
   };
 
@@ -356,6 +407,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.updateOrderStatus(orderId, newStatus).catch((err) => console.warn('Sync updateOrderStatus error:', err));
     handleToast(`Pedido #${orderId} atualizado para "${newStatus.toUpperCase()}"! 🔄`);
   };
 
@@ -383,6 +436,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.toggleOrderPayment(orderId).catch((err) => console.warn('Sync toggleOrderPayment error:', err));
     handleToast(`Status financeiro do pedido #${orderId} atualizado no caixa! 💰`);
   };
 
@@ -396,6 +451,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.deleteOrder(orderId).catch((err) => console.warn('Sync deleteOrder error:', err));
     handleToast(`Pedido #${orderId} excluído com sucesso! 🗑️`);
   };
 
@@ -415,6 +472,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.saveExpense(expense).catch((err) => console.warn('Sync saveExpense error:', err));
     handleToast(`Despesa "${expense.descricao}" salva com sucesso! 💸`);
   };
 
@@ -428,6 +487,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.deleteExpense(id).catch((err) => console.warn('Sync deleteExpense error:', err));
     handleToast('Despesa removida! 🗑️');
   };
 
@@ -450,6 +511,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.toggleExpenseStatus(id).catch((err) => console.warn('Sync toggleExpenseStatus error:', err));
     handleToast('Status da despesa atualizado! 🔄');
   };
 
@@ -466,6 +529,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.savePurchase(purchase).catch((err) => console.warn('Sync savePurchase error:', err));
     handleToast(`Compra de estoque #${purchase.id} salva com sucesso! 📦`);
   };
 
@@ -479,6 +544,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.deletePurchase(id).catch((err) => console.warn('Sync deletePurchase error:', err));
     handleToast('Registro de compra removido! 🗑️');
   };
 
@@ -520,6 +587,7 @@ export default function App() {
       return next;
     });
 
+    api.saveSupplier(supplier).catch((err) => console.warn('Sync saveSupplier error:', err));
     handleToast(`Fornecedor "${supplier.nome}" salvo com sucesso! 🤝✅`);
   };
 
@@ -556,6 +624,7 @@ export default function App() {
       return next;
     });
 
+    api.deleteSupplier(supplierId).catch((err) => console.warn('Sync deleteSupplier error:', err));
     handleToast('Fornecedor removido e cotas de estoque atualizadas! 🗑️');
   };
 
@@ -575,6 +644,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.saveProduct(productData).catch((err) => console.warn('Sync saveProduct error:', err));
     handleToast(`Perfume "${productData.cleanName || productData.name}" salvo com sucesso! 📦✨`);
   };
 
@@ -588,6 +659,8 @@ export default function App() {
       }
       return next;
     });
+
+    api.deleteProduct(productSku).catch((err) => console.warn('Sync deleteProduct error:', err));
     handleToast('Perfume excluído do catálogo! 🗑️');
   };
 
@@ -641,6 +714,8 @@ export default function App() {
         expenses={expenses}
         stockPurchases={stockPurchases}
         suppliers={suppliers}
+        dbStatus={dbStatus}
+        onSyncDb={() => syncWithDatabase(true)}
         onUpdateProduct={handleUpdateProduct}
         onBatchUpdate={handleBatchUpdate}
         onResetToDefaults={handleResetToDefaults}

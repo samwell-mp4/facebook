@@ -1,56 +1,102 @@
-# 🚀 Como Hospedar o Catálogo & Copyboard no Easypanel
+# 🚀 Snack Store BH - Deploy no Easypanel com PostgreSQL na Nuvem
 
-O projeto foi totalmente convertido para uma aplicação moderna em **React + Vite** com servidor **Nginx de alta performance** encapsulado em um **Dockerfile** multi-stage pronto para produção.
+Este projeto é uma aplicação moderna completa: **Frontend React/Vite** + **Backend Node.js/Express** + **Banco de Dados PostgreSQL (`pg_snk`)**.
 
----
-
-## 📦 O que foi criado no projeto:
-- **`Dockerfile`**: Compila o React/Vite com Node 20 e serve com Nginx Alpine (consome menos de 20MB de RAM).
-- **`nginx.conf`**: Configuração com compressão Gzip, cache de imagens e suporte a rotas SPA.
-- **`.dockerignore`**: Otimiza o envio ignorando arquivos desnecessários.
-- **`src/`**: Aplicação completa em React 18 com:
-  - 1-Click Copyboard (SKU, Título Curto, Título Longo, Tags e Descrição Completa);
-  - Busca instantânea e filtros por Linha Árabe, Brand Collection, Feminino, Masculino e Unissex;
-  - Modal com galeria de todas as fotos em alta resolução;
-  - Feedback visual e Toast com notificações rápidas.
+Tudo roda perfeitamente em produção no **Easypanel** com conexão interna ultra-rápida, migração e população automática de tabelas no primeiro boot!
 
 ---
 
-## 🌐 Passo a Passo para Subir no Easypanel:
+## 💎 Conexão PostgreSQL Integrada
 
-### Opção 1: Via Repositório GitHub / GitLab (Mais Recomendado)
-1. Suba esta pasta para um repositório no seu **GitHub** ou **GitLab**;
-2. Acesse seu painel do **Easypanel**;
-3. No seu Projeto, clique em **+ Service** ➔ escolha **App**;
-4. Na aba **Source**:
-   - Selecione seu repositório Git;
-   - Branch: `main` (ou a branch que você subiu);
-5. Na aba **Build**:
-   - Selecione o método de build: **Dockerfile**;
-   - Dockerfile Path: `./Dockerfile` (ou deixe o padrão);
-6. Na aba **Domains**:
-   - Adicione seu domínio ou subdomínio (ex: `catalogo.snackstorebh.com.br`) ou use o domínio temporário do Easypanel;
-7. Na aba **Ports**:
-   - Certifique-se de que a porta de destino seja **80** (o Dockerfile já expõe a porta 80 do Nginx);
-8. Clique em **Deploy**! 🚀
-   - O Easypanel irá construir a imagem, empacotar todas as 52 pastas de fotos e o site entrará no ar com HTTPS/SSL automático!
+A URL interna informada já está configurada como padrão de fallback no backend:
 
----
-
-### Opção 2: Testar Localmente na sua Máquina
-Caso queira rodar o catálogo no seu computador antes de subir:
-```bash
-npm run dev
+```env
+DATABASE_URL=postgres://pg_snk_bnk:FAHDOIH2hiaoda2@@plug_sales_dispatch_app_pg_snk:5432/pg_snk?sslmode=disable
 ```
-Acesse no seu navegador: `http://localhost:5173`
-*(Todas as fotos e o copyboard já funcionam 100% no modo local!)*
+
+### 📋 As 10 Tabelas Criadas Automaticamente:
+1. **`tb_produtos`**: Todos os 52 perfumes (Brand Collection e Árabes) com especificações olfativas, fotos, pirâmide olfativa, preços de compra, atacado, varejo, estoque próprio e alocações de parceiros.
+2. **`tb_fornecedores`**: Cadastro completo de fornecedores, importadoras e lojistas parceiros com contatos, WhatsApp, CNPJ/CPF e cidades.
+3. **`tb_fornecedor_produtos`**: Tabela relacional de vínculo entre fornecedor e estoque de perfumes.
+4. **`tb_pedidos`**: Central de vendas e despachos com dados do cliente (JSONB), status do pedido, histórico de rastreio, totais de venda, custo, lucro e pagamentos.
+5. **`tb_itens_pedido`**: Normalização relacional de itens de pedidos para queries analíticas e relatórios.
+6. **`tb_despesas`**: Gestão contábil de despesas operacionais (sacolas, frete, marketing, motoboy) com vencimentos e status.
+7. **`tb_compras_estoque`**: Lotes de compra de mercadoria com notas fiscais, frascos e valores totais.
+8. **`tb_acertos_historico`**: Histórico detalhado de conciliações de consignados com devoluções e recebimentos.
+9. **`tb_configuracoes`**: Configurações gerais da loja, versionamento e metadados de auditoria.
+10. **`tb_logs_auditoria`**: Rastreabilidade de alterações operacionais no sistema.
 
 ---
 
-### Opção 3: Testar com Docker Localmente
-Se você tiver o Docker instalado na sua máquina:
-```bash
-docker build -t snack-catalogo .
-docker run -d -p 8080:80 snack-catalogo
+## 🌐 Passo a Passo no Easypanel:
+
+### 1. Criar o Serviço App
+1. Acesse o seu painel do **Easypanel**;
+2. No seu Projeto (onde o serviço PostgreSQL `plug_sales_dispatch_app_pg_snk` já existe), clique em **+ Service** ➔ escolha **App**;
+3. Dê um nome ao app (ex: `snack-store-app` ou `snack-catalogo`).
+
+### 2. Configurar a Origem (Source)
+- Na aba **Source**:
+  - Selecione o seu repositório Git (GitHub ou GitLab);
+  - Branch: `main`.
+
+### 3. Configurar Build
+- Na aba **Build**:
+  - Build Method: **Dockerfile**;
+  - Dockerfile Path: `./Dockerfile`.
+
+### 4. Configurar Variáveis de Ambiente (Environment)
+Na aba **Environment**, adicione:
+```env
+NODE_ENV=production
+PORT=80
+DATABASE_URL=postgres://pg_snk_bnk:FAHDOIH2hiaoda2@@plug_sales_dispatch_app_pg_snk:5432/pg_snk?sslmode=disable
 ```
-Acesse no navegador: `http://localhost:8080`
+*(Nota: O backend já possui essa URL como fallback padrão, mas declarar no painel é uma boa prática).*
+
+### 5. Configurar Portas e Domínio
+- Na aba **Domains**: adicione o domínio ou subdomínio desejado (ex: `catalogo.snackstorebh.com.br`) ou use o domínio `.easypanel.host`;
+- Na aba **Ports**: porta `80`.
+
+### 6. Clicar em Deploy! 🚀
+- O Easypanel irá construir a imagem Docker;
+- Ao inicializar, o backend se conectará ao container `plug_sales_dispatch_app_pg_snk`;
+- Executará o arquivo `server/schema.sql` criando todas as 10 tabelas;
+- Populará automaticamente todos os 52 perfumes, fornecedores, pedidos iniciais e despesas;
+- O painel executivo mostrará o badge: **🟢 PostgreSQL pg_snk Conectado**!
+
+---
+
+## 🔍 Como Testar e Validar a Conexão:
+
+### Endpoint de Saúde e Status do Banco:
+Acesse no navegador ou via curl:
+```
+GET https://seu-dominio.com.br/api/health
+```
+Resposta esperada:
+```json
+{
+  "status": "online",
+  "app": "Snack Store BH - API & Catálogo Nuvem",
+  "database": {
+    "connected": true,
+    "latencyMs": 8,
+    "database": "pg_snk"
+  },
+  "counts": {
+    "produtos": 52,
+    "fornecedores": 4,
+    "pedidos": 3,
+    "despesas": 3,
+    "compras": 1
+  }
+}
+```
+
+### Script de Execução Manual (Opcional):
+Caso queira rodar a inicialização manualmente via linha de comando ou container shell:
+```bash
+npm run db:init
+```
+Ou executar o script SQL diretamente no DBeaver / pgAdmin / Console Easypanel com o arquivo [server/schema.sql](file:///c:/Users/User/Downloads/Catalogo%20Novo%20Snack%20Store%20BH-20261013T151552Z-1-001/Catalogo%20Novo%20Snack%20Store%20BH/server/schema.sql).

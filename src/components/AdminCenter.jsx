@@ -100,6 +100,8 @@ export default function AdminCenter({
   expenses = [],
   stockPurchases = [],
   suppliers = [],
+  dbStatus,
+  onSyncDb,
   onUpdateProduct,
   onBatchUpdate,
   onResetToDefaults,
@@ -655,11 +657,26 @@ export default function AdminCenter({
 
         {/* Sidebar Footer - Clean SaaS Platform Status */}
         <div className="sidebar-footer-box">
-          <div className="sidebar-platform-status">
-            <span className="platform-status-dot"></span>
+          <div
+            className="sidebar-platform-status"
+            onClick={onSyncDb}
+            style={{ cursor: 'pointer' }}
+            title={dbStatus?.connected ? "Conectado ao PostgreSQL pg_snk na nuvem. Clique para sincronizar agora." : "Clique para testar conexão com o PostgreSQL na nuvem."}
+          >
+            <span
+              className="platform-status-dot"
+              style={{
+                backgroundColor: dbStatus?.connected ? '#10b981' : (dbStatus?.loading ? '#38bdf8' : '#f59e0b'),
+                boxShadow: dbStatus?.connected ? '0 0 8px #10b981' : 'none'
+              }}
+            ></span>
             <div className="platform-status-info">
-              <span className="platform-status-title">Snack Store Platform</span>
-              <span className="platform-status-sub">SaaS Operacional • Ativo</span>
+              <span className="platform-status-title" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                {dbStatus?.connected ? 'PostgreSQL pg_snk' : (dbStatus?.loading ? 'Conectando...' : 'Modo Offline')}
+              </span>
+              <span className="platform-status-sub">
+                {dbStatus?.connected ? `Nuvem Ativa • ${dbStatus?.latency || 12}ms` : 'Clique p/ Sincronizar'}
+              </span>
             </div>
           </div>
         </div>
@@ -673,11 +690,56 @@ export default function AdminCenter({
             {/* Header com Status Operacional e Botão de Novo Pedido */}
             <div className="pane-header-row">
               <div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
                   <h2>Painel Executivo Snack Store BH</h2>
                   <span className="live-status-badge">
                     <span className="live-dot"></span> Operação Ativa
                   </span>
+                  {dbStatus?.connected ? (
+                    <span
+                      className="db-cloud-badge"
+                      onClick={onSyncDb}
+                      title="Clique para sincronizar dados em tempo real com o PostgreSQL"
+                      style={{
+                        cursor: 'pointer',
+                        background: 'rgba(16, 185, 129, 0.15)',
+                        color: '#34d399',
+                        border: '1px solid rgba(16, 185, 129, 0.35)',
+                        padding: '4px 10px',
+                        borderRadius: '20px',
+                        fontSize: '11px',
+                        fontWeight: '600',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '6px'
+                      }}
+                    >
+                      <span style={{ width: 7, height: 7, borderRadius: '50%', backgroundColor: '#10b981', display: 'inline-block', boxShadow: '0 0 6px #10b981' }}></span>
+                      PostgreSQL Nuvem Conectado ({dbStatus.latency}ms) ⚡
+                    </span>
+                  ) : (
+                    <span
+                      className="db-cloud-badge"
+                      onClick={onSyncDb}
+                      title="Banco na nuvem acessível via Easypanel/Docker. Clique para tentar conexão agora."
+                      style={{
+                        cursor: 'pointer',
+                        background: 'rgba(245, 158, 11, 0.15)',
+                        color: '#fbbf24',
+                        border: '1px solid rgba(245, 158, 11, 0.35)',
+                        padding: '4px 10px',
+                        borderRadius: '20px',
+                        fontSize: '11px',
+                        fontWeight: '600',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '6px'
+                      }}
+                    >
+                      <span style={{ width: 7, height: 7, borderRadius: '50%', backgroundColor: '#f59e0b', display: 'inline-block' }}></span>
+                      PostgreSQL: Modo Local (Clique p/ Sincronizar) 🔄
+                    </span>
+                  )}
                 </div>
                 <p>Visão geral consolidada em tempo real com ações rápidas e alertas prioritários.</p>
               </div>
@@ -700,6 +762,14 @@ export default function AdminCenter({
                 >
                   <Plus size={15} />
                   <span>Novo Pedido</span>
+                </button>
+                <button
+                  className="dash-action-btn"
+                  onClick={onSyncDb}
+                  title="Sincronizar dados em tempo real com o PostgreSQL"
+                >
+                  <Sparkles size={15} color="#38bdf8" />
+                  <span>Sincronizar Nuvem</span>
                 </button>
                 <button
                   className="dash-action-btn"
