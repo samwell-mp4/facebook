@@ -1,6 +1,6 @@
 -- ==============================================================================
 -- SNACK STORE BH - SCHEMA OFICIAL POSTGRESQL
--- Banco: pg_snk | Usuário: pg_snk_bnk
+-- Banco: pga_snk | Usuário: pga_snk_plug
 -- Criado para suportar Catálogo, Copyboard, Vendas, Estoque e Contabilidade
 -- ==============================================================================
 

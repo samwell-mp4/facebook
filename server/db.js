@@ -6,7 +6,7 @@ dotenv.config();
 const { Pool } = pg;
 
 // Connection string provided for internal cloud deployment
-const DEFAULT_DATABASE_URL = 'postgres://pg_snk_bnk:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable';
+const DEFAULT_DATABASE_URL = 'postgres://pga_snk_plug:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable';
 
 /**
  * Robust parser for PostgreSQL URLs that correctly handles passwords with special characters (like '@')
@@ -35,11 +35,11 @@ const connectionUrl = process.env.DATABASE_URL || DEFAULT_DATABASE_URL;
 const parsedUrl = parsePostgresUrl(connectionUrl) || {};
 
 export const poolConfig = {
-  user: process.env.DB_USER || parsedUrl.user || 'pg_snk_bnk',
-  password: process.env.DB_PASSWORD || parsedUrl.password || 'FAHDOIH2hiaoda2@',
-  host: process.env.DB_HOST || parsedUrl.host || 'plug_sales_dispatch_app_pg_snk',
+  user: process.env.DB_USER || parsedUrl.user || 'pga_snk_plug',
+  password: process.env.DB_PASSWORD || parsedUrl.password || 'jaIFJADOFJADppga',
+  host: process.env.DB_HOST || parsedUrl.host || 'plug_sales_dispatch_app_pga_snk',
   port: parseInt(process.env.DB_PORT || String(parsedUrl.port || 5432), 10),
-  database: process.env.DB_NAME || parsedUrl.database || 'pg_snk',
+  database: process.env.DB_NAME || parsedUrl.database || 'pga_snk',
   ssl: process.env.DB_SSL === 'true' ? { rejectUnauthorized: false } : (parsedUrl.ssl || false),
   max: 20, // Connection pool size
   idleTimeoutMillis: 30000,

@@ -21,8 +21,8 @@ export default function App() {
     connected: false,
     loading: true,
     latency: null,
-    dbName: 'pg_snk',
-    host: 'plug_sales_dispatch_app_pg_snk',
+    dbName: 'pga_snk',
+    host: 'plug_sales_dispatch_app_pga_snk',
     lastSync: null
   });
 
@@ -144,7 +144,7 @@ export default function App() {
           loading: false,
           latency: health.database.latencyMs,
           dbName: health.database.database,
-          host: health.database.config?.host || 'plug_sales_dispatch_app_pg_snk',
+          host: health.database.config?.host || 'plug_sales_dispatch_app_pga_snk',
           counts: health.counts,
           lastSync: new Date().toLocaleTimeString('pt-BR')
         });
@@ -180,15 +180,15 @@ export default function App() {
         }
 
         if (showFeedback) {
-          handleToast('🟢 Sincronizado com PostgreSQL pg_snk na nuvem!');
+          handleToast('🟢 Sincronizado com PostgreSQL pga_snk na nuvem!');
         }
       } else {
         setDbStatus({
           connected: false,
           loading: false,
           latency: null,
-          dbName: 'pg_snk',
-          host: 'plug_sales_dispatch_app_pg_snk',
+          dbName: 'pga_snk',
+          host: 'plug_sales_dispatch_app_pga_snk',
           offline: true,
           error: health.database?.error
         });
@@ -201,8 +201,8 @@ export default function App() {
         connected: false,
         loading: false,
         latency: null,
-        dbName: 'pg_snk',
-        host: 'plug_sales_dispatch_app_pg_snk',
+        dbName: 'pga_snk',
+        host: 'plug_sales_dispatch_app_pga_snk',
         offline: true,
         error: e.message
       });

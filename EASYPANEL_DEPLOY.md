@@ -1,6 +1,6 @@
 # 🚀 Snack Store BH - Deploy no Easypanel com PostgreSQL na Nuvem
 
-Este projeto é uma aplicação moderna completa: **Frontend React/Vite** + **Backend Node.js/Express** + **Banco de Dados PostgreSQL (`pg_snk`)**.
+Este projeto é uma aplicação moderna completa: **Frontend React/Vite** + **Backend Node.js/Express** + **Banco de Dados PostgreSQL (`pga_snk`)**.
 
 Tudo roda perfeitamente em produção no **Easypanel** com conexão interna ultra-rápida, migração e população automática de tabelas no primeiro boot!
 
@@ -11,7 +11,7 @@ Tudo roda perfeitamente em produção no **Easypanel** com conexão interna ultr
 A URL interna informada já está configurada como padrão de fallback no backend:
 
 ```env
-DATABASE_URL=postgres://pg_snk_bnk:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable
+DATABASE_URL=postgres://pga_snk_plug:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable
 ```
 
 ### 📋 As 10 Tabelas Criadas Automaticamente:
@@ -32,7 +32,7 @@ DATABASE_URL=postgres://pg_snk_bnk:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_
 
 ### 1. Criar o Serviço App
 1. Acesse o seu painel do **Easypanel**;
-2. No seu Projeto (onde o serviço PostgreSQL `plug_sales_dispatch_app_pg_snk` já existe), clique em **+ Service** ➔ escolha **App**;
+2. No seu Projeto (onde o serviço PostgreSQL `plug_sales_dispatch_app_pga_snk` já existe), clique em **+ Service** ➔ escolha **App**;
 3. Dê um nome ao app (ex: `snack-store-app` ou `snack-catalogo`).
 
 ### 2. Configurar a Origem (Source)
@@ -50,7 +50,7 @@ Na aba **Environment**, adicione:
 ```env
 NODE_ENV=production
 PORT=80
-DATABASE_URL=postgres://pg_snk_bnk:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable
+DATABASE_URL=postgres://pga_snk_plug:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable
 ```
 *(Nota: O backend já possui essa URL como fallback padrão, mas declarar no painel é uma boa prática).*
 
@@ -60,10 +60,10 @@ DATABASE_URL=postgres://pg_snk_bnk:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_
 
 ### 6. Clicar em Deploy! 🚀
 - O Easypanel irá construir a imagem Docker;
-- Ao inicializar, o backend se conectará ao container `plug_sales_dispatch_app_pg_snk`;
+- Ao inicializar, o backend se conectará ao container `plug_sales_dispatch_app_pga_snk`;
 - Executará o arquivo `server/schema.sql` criando todas as 10 tabelas;
 - Populará automaticamente todos os 52 perfumes, fornecedores, pedidos iniciais e despesas;
-- O painel executivo mostrará o badge: **🟢 PostgreSQL pg_snk Conectado**!
+- O painel executivo mostrará o badge: **🟢 PostgreSQL pga_snk Conectado**!
 
 ---
 
@@ -82,7 +82,7 @@ Resposta esperada:
   "database": {
     "connected": true,
     "latencyMs": 8,
-    "database": "pg_snk"
+    "database": "pga_snk"
   },
   "counts": {
     "produtos": 52,

@@ -661,7 +661,7 @@ export default function AdminCenter({
             className="sidebar-platform-status"
             onClick={onSyncDb}
             style={{ cursor: 'pointer' }}
-            title={dbStatus?.connected ? "Conectado ao PostgreSQL pg_snk na nuvem. Clique para sincronizar agora." : "Clique para testar conexão com o PostgreSQL na nuvem."}
+            title={dbStatus?.connected ? "Conectado ao PostgreSQL pga_snk na nuvem. Clique para sincronizar agora." : "Clique para testar conexão com o PostgreSQL na nuvem."}
           >
             <span
               className="platform-status-dot"
@@ -672,7 +672,7 @@ export default function AdminCenter({
             ></span>
             <div className="platform-status-info">
               <span className="platform-status-title" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                {dbStatus?.connected ? 'PostgreSQL pg_snk' : (dbStatus?.loading ? 'Conectando...' : 'Modo Offline')}
+                {dbStatus?.connected ? 'PostgreSQL pga_snk' : (dbStatus?.loading ? 'Conectando...' : 'Modo Offline')}
               </span>
               <span className="platform-status-sub">
                 {dbStatus?.connected ? `Nuvem Ativa • ${dbStatus?.latency || 12}ms` : 'Clique p/ Sincronizar'}
