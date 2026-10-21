@@ -72,14 +72,46 @@ export default function OrdersManager({
     });
   };
 
-  const formatDate = (str) => {
-    if (!str) return '-';
-    try {
-      const d = new Date(str + (str.length <= 10 ? 'T12:00:00' : ''));
-      return d.toLocaleDateString('pt-BR');
-    } catch {
-      return str;
+  const parseSafeDate = (val) => {
+    if (!val) return null;
+    if (val instanceof Date) {
+      return isNaN(val.getTime()) ? null : val;
     }
+    const str = String(val).trim();
+    if (!str || str === 'Invalid Date' || str === 'null' || str === 'undefined') return null;
+
+    // Formato ISO: YYYY-MM-DD
+    const isoMatch = str.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (isoMatch) {
+      return new Date(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3]), 12, 0, 0);
+    }
+
+    // Formato brasileiro: DD/MM/YYYY
+    const brMatch = str.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
+    if (brMatch) {
+      return new Date(Number(brMatch[3]), Number(brMatch[2]) - 1, Number(brMatch[1]), 12, 0, 0);
+    }
+
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+  };
+
+  const toIsoDateInput = (val) => {
+    const d = parseSafeDate(val);
+    if (!d) return '';
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  };
+
+  const formatDate = (str) => {
+    const d = parseSafeDate(str);
+    if (!d) return '-';
+    const dia = String(d.getDate()).padStart(2, '0');
+    const mes = String(d.getMonth() + 1).padStart(2, '0');
+    const ano = d.getFullYear();
+    return `${dia}/${mes}/${ano}`;
   };
 
   // Summary KPIs
@@ -405,7 +437,7 @@ export default function OrdersManager({
                   <td onClick={(e) => e.stopPropagation()}>
                     <input
                       type="date"
-                      value={o.dataVencimento || ''}
+                      value={toIsoDateInput(o.dataVencimento)}
                       onChange={(e) => onUpdateOrderDue && onUpdateOrderDue(o.id, e.target.value)}
                       className="inline-date-input"
                     />

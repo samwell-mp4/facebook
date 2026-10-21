@@ -264,6 +264,21 @@ export async function initializeDatabase(options = { verbose: true }) {
     ]
   );
 
+  // Auto-repara qualquer data nula ou inconsistente em tb_pedidos existente
+  try {
+    await query(`
+      UPDATE tb_pedidos
+      SET data_pedido = created_at::date
+      WHERE data_pedido IS NULL;
+
+      UPDATE tb_pedidos
+      SET data_vencimento = (data_pedido + INTERVAL '30 days')::date
+      WHERE data_vencimento IS NULL AND valor_em_aberto > 0;
+    `);
+  } catch (healErr) {
+    console.warn('Aviso ao auto-reparar datas no banco:', healErr.message);
+  }
+
   // Status final
   const [fCount, pCount, ordCount, dCount, cCount] = await Promise.all([
     query('SELECT COUNT(*) FROM tb_fornecedores').then((r) => r.rows[0].count),

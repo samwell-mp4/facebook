@@ -324,9 +324,11 @@ export default function App() {
   // =============================================
   // ORDER ACTIONS & ACCOUNTING RECONCILIATION
   // =============================================
-  const handleSaveOrder = (newOrder) => {
+  const handleSaveOrder = async (newOrder) => {
+    let isNew = false;
     setOrders((prev) => {
       const exists = prev.some((o) => o.id === newOrder.id);
+      isNew = !exists;
       const next = exists
         ? prev.map((o) => (o.id === newOrder.id ? newOrder : o))
         : [newOrder, ...prev];
@@ -339,7 +341,7 @@ export default function App() {
     });
 
     // Se for novo pedido, atualizar o estoque físico dos itens de Estoque Próprio:
-    if (Array.isArray(newOrder.itens)) {
+    if (isNew && Array.isArray(newOrder.itens)) {
       setProducts((prev) => {
         const nextProds = prev.map((p) => {
           const itemInOrder = newOrder.itens.find((it) => it.sku === p.sku);
@@ -363,11 +365,27 @@ export default function App() {
       });
     }
 
-    api.saveOrder(newOrder).catch((err) => console.warn('Sync saveOrder error:', err));
-    handleToast(`Pedido #${newOrder.id} salvo com sucesso! 📦✅`);
+    try {
+      const res = await api.saveOrder(newOrder);
+      if (res?.order) {
+        setOrders((prev) => {
+          const next = prev.map((o) => (o.id === res.order.id ? res.order : o));
+          try {
+            localStorage.setItem(ORDERS_STORAGE_KEY, JSON.stringify(next));
+          } catch (e) {
+            console.error(e);
+          }
+          return next;
+        });
+      }
+      handleToast(`Pedido #${newOrder.id} salvo com sucesso! 📦✅`);
+    } catch (err) {
+      console.error('Sync saveOrder error:', err);
+      handleToast(`⚠️ Pedido #${newOrder.id} salvo localmente (${err.message})`);
+    }
   };
 
-  const handleUpdateOrderStatus = (orderId, newStatus) => {
+  const handleUpdateOrderStatus = async (orderId, newStatus) => {
     setOrders((prev) => {
       const next = prev.map((o) => {
         if (o.id === orderId) {
@@ -392,7 +410,7 @@ export default function App() {
             financeiro: {
               ...o.financeiro,
               statusPagamento: isFinalizado
-                ? (aberto === 0 ? 'pago' : 'pendente')
+                ? (aberto === 0 ? 'pago' : o.financeiro?.statusPagamento || 'pendente')
                 : o.financeiro?.statusPagamento,
               pagoEm: isFinalizado && aberto === 0 ? (o.financeiro?.pagoEm || new Date().toISOString()) : o.financeiro?.pagoEm
             }
@@ -408,22 +426,46 @@ export default function App() {
       return next;
     });
 
-    api.updateOrderStatus(orderId, newStatus).catch((err) => console.warn('Sync updateOrderStatus error:', err));
-    handleToast(`Pedido #${orderId} atualizado para "${newStatus.toUpperCase()}"! 🔄`);
+    try {
+      const res = await api.updateOrderStatus(orderId, newStatus);
+      if (res?.order) {
+        setOrders((prev) => {
+          const next = prev.map((o) => (o.id === res.order.id ? res.order : o));
+          try {
+            localStorage.setItem(ORDERS_STORAGE_KEY, JSON.stringify(next));
+          } catch (e) {
+            console.error(e);
+          }
+          return next;
+        });
+      }
+      handleToast(`Pedido #${orderId} atualizado para "${newStatus.toUpperCase()}"! 🔄`);
+    } catch (err) {
+      console.warn('Sync updateOrderStatus error:', err);
+    }
   };
 
-  const handleTogglePaymentStatus = (orderId) => {
+  const handleTogglePaymentStatus = async (orderId) => {
+    let nextPago = false;
     setOrders((prev) => {
       const next = prev.map((o) => {
         if (o.id === orderId) {
-          const isPago = o.financeiro?.statusPagamento === 'pago';
-          const nextPago = !isPago;
+          const isPago = o.financeiro?.statusPagamento === 'pago' || Number(o.valorEmAberto) === 0;
+          nextPago = !isPago;
+          const totalCobrar = Number(o.totalCobrar ?? o.totais?.valorTotal ?? 0);
+          const totalPago = nextPago ? totalCobrar : 0;
+          const valorEmAberto = nextPago ? 0 : totalCobrar;
           return {
             ...o,
+            totalPago,
+            valorEmAberto,
             financeiro: {
               ...o.financeiro,
               statusPagamento: nextPago ? 'pago' : 'pendente',
-              pagoEm: nextPago ? new Date().toISOString() : null
+              pagoEm: nextPago ? new Date().toISOString() : null,
+              valorPago: totalPago,
+              valorRecebido: totalPago,
+              valorEmAberto: valorEmAberto
             }
           };
         }
@@ -437,8 +479,23 @@ export default function App() {
       return next;
     });
 
-    api.toggleOrderPayment(orderId).catch((err) => console.warn('Sync toggleOrderPayment error:', err));
-    handleToast(`Status financeiro do pedido #${orderId} atualizado no caixa! 💰`);
+    try {
+      const res = await api.toggleOrderPayment(orderId);
+      if (res?.order) {
+        setOrders((prev) => {
+          const next = prev.map((o) => (o.id === res.order.id ? res.order : o));
+          try {
+            localStorage.setItem(ORDERS_STORAGE_KEY, JSON.stringify(next));
+          } catch (e) {
+            console.error(e);
+          }
+          return next;
+        });
+      }
+      handleToast(`Status financeiro do pedido #${orderId} atualizado no caixa! 💰`);
+    } catch (err) {
+      console.warn('Sync toggleOrderPayment error:', err);
+    }
   };
 
   const handleDeleteOrder = (orderId) => {

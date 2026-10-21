@@ -3,7 +3,11 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const { Pool } = pg;
+const { Pool, types } = pg;
+
+// Retorna colunas do tipo DATE (OID 1082) diretamente como string 'YYYY-MM-DD',
+// evitando conversão para objeto Date local que gera shifts de fuso e strings 'Sun Oct 11'
+types.setTypeParser(1082, (val) => val);
 
 // Connection string provided for internal cloud deployment
 const DEFAULT_DATABASE_URL = 'postgres://pga_snk_plug:jaIFJADOFJADppga@plug_sales_dispatch_app_pga_snk:5432/pga_snk?sslmode=disable';

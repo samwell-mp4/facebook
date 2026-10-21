@@ -431,14 +431,53 @@ app.delete('/api/products/:sku', async (req, res) => {
 });
 
 // ==============================================================================
+// HELPERS DE DATA ISO
+// ==============================================================================
+export function toIsoDate(val) {
+  if (!val) return null;
+  if (val instanceof Date) {
+    if (isNaN(val.getTime())) return null;
+    const y = val.getFullYear();
+    const m = String(val.getMonth() + 1).padStart(2, '0');
+    const d = String(val.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  }
+  const str = String(val).trim();
+  if (!str || str === 'Invalid Date' || str === 'null' || str === 'undefined') return null;
+
+  // Formato ISO: YYYY-MM-DD
+  const isoMatch = str.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (isoMatch) return `${isoMatch[1]}-${isoMatch[2]}-${isoMatch[3]}`;
+
+  // Formato brasileiro: DD/MM/YYYY
+  const brMatch = str.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
+  if (brMatch) return `${brMatch[3]}-${brMatch[2]}-${brMatch[1]}`;
+
+  const d = new Date(str);
+  if (!isNaN(d.getTime())) {
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  }
+  return null;
+}
+
+// ==============================================================================
 // ROTAS: PEDIDOS & DESPACHOS (tb_pedidos)
 // ==============================================================================
 function formatOrderFromDb(row) {
+  const cleanDataPedido =
+    toIsoDate(row.data_pedido) ||
+    (row.created_at ? toIsoDate(row.created_at) : null) ||
+    new Date().toISOString().slice(0, 10);
+  const cleanDataVencimento = toIsoDate(row.data_vencimento) || '';
+
   return {
     id: row.id,
     createdAt: row.created_at ? new Date(row.created_at).toISOString() : new Date().toISOString(),
-    dataPedido: row.data_pedido ? row.data_pedido.toString().slice(0, 10) : '',
-    dataVencimento: row.data_vencimento ? row.data_vencimento.toString().slice(0, 10) : '',
+    dataPedido: cleanDataPedido,
+    dataVencimento: cleanDataVencimento,
     status: row.status,
     cliente: typeof row.cliente === 'string' ? JSON.parse(row.cliente) : (row.cliente || {}),
     itens: typeof row.itens === 'string' ? JSON.parse(row.itens) : (row.itens || []),
@@ -451,7 +490,7 @@ function formatOrderFromDb(row) {
     formaPagamento: row.forma_pagamento,
     paymentSplits: typeof row.payment_splits === 'string' ? JSON.parse(row.payment_splits) : (row.payment_splits || {}),
     financeiro: typeof row.financeiro === 'string' ? JSON.parse(row.financeiro) : (row.financeiro || {}),
-    observacoes: row.observacoes,
+    observacoes: row.observacoes || '',
     historicoStatus: typeof row.historico_status === 'string' ? JSON.parse(row.historico_status) : (row.historico_status || [])
   };
 }
@@ -467,8 +506,8 @@ app.get('/api/orders', async (req, res) => {
   }
 });
 
-// Criar ou atualizar pedido (UPSERT)
-app.post('/api/orders', async (req, res) => {
+// Manipulador central de salvar/atualizar pedido (UPSERT)
+async function handleUpsertOrder(req, res) {
   try {
     const o = req.body;
     if (!o.id) return res.status(400).json({ error: 'ID do pedido é obrigatório' });
@@ -476,6 +515,12 @@ app.post('/api/orders', async (req, res) => {
     const totalCobrar = Number(o.totalCobrar ?? o.totais?.valorTotal ?? 0);
     const totalPago = Number(o.totalPago ?? o.financeiro?.valorRecebido ?? 0);
     const valorEmAberto = Number(o.valorEmAberto ?? Math.max(0, totalCobrar - totalPago));
+
+    const checkExisting = await query('SELECT id FROM tb_pedidos WHERE id = $1', [o.id]);
+    const isNew = checkExisting.rows.length === 0;
+
+    const orderDate = toIsoDate(o.dataPedido) || toIsoDate(o.createdAt) || new Date().toISOString().slice(0, 10);
+    const dueDate = toIsoDate(o.dataVencimento) || null;
 
     const sql = `
       INSERT INTO tb_pedidos (
@@ -512,8 +557,8 @@ app.post('/api/orders', async (req, res) => {
 
     const values = [
       o.id,
-      o.dataPedido || (o.createdAt ? o.createdAt.slice(0, 10) : new Date().toISOString().slice(0, 10)),
-      o.dataVencimento || null,
+      orderDate,
+      dueDate,
       o.status || 'pendente',
       JSON.stringify(o.cliente || {}),
       JSON.stringify(o.itens || []),
@@ -533,8 +578,8 @@ app.post('/api/orders', async (req, res) => {
 
     const result = await query(sql, values);
 
-    // Deduz estoque físico se for pedido com itens de estoque próprio
-    if (Array.isArray(o.itens)) {
+    // Deduz estoque físico SOMENTE se for um pedido NOVO (não duplica em edições)
+    if (isNew && Array.isArray(o.itens)) {
       for (const it of o.itens) {
         if (it.sku && it.isEstoqueProprio !== false) {
           const qty = Number(it.qtd || it.qty || 1);
@@ -552,9 +597,16 @@ app.post('/api/orders', async (req, res) => {
 
     res.json({ success: true, order: formatOrderFromDb(result.rows[0]) });
   } catch (err) {
-    console.error('Erro em POST /api/orders:', err);
+    console.error('Erro em salvar pedido:', err);
     res.status(500).json({ error: err.message });
   }
+}
+
+// Criar ou atualizar pedido (UPSERT)
+app.post('/api/orders', handleUpsertOrder);
+app.put('/api/orders/:id', (req, res) => {
+  req.body.id = req.params.id;
+  return handleUpsertOrder(req, res);
 });
 
 // Atualizar status de pedido
@@ -608,7 +660,7 @@ app.put('/api/orders/:id/status', async (req, res) => {
   }
 });
 
-// Toggle pagamento
+// Toggle pagamento (Dar Baixa / Estornar)
 app.put('/api/orders/:id/toggle-payment', async (req, res) => {
   try {
     const { id } = req.params;
@@ -621,12 +673,18 @@ app.put('/api/orders/:id/toggle-payment', async (req, res) => {
       ? JSON.parse(current.financeiro)
       : (current.financeiro || {});
 
-    const isPago = financeiro.statusPagamento === 'pago';
+    const totalCobrar = Number(current.total_cobrar || 0);
+    const currentAberto = Number(current.valor_em_aberto || 0);
+    const isPago = financeiro.statusPagamento === 'pago' || currentAberto === 0;
     const nextPago = !isPago;
+
     financeiro.statusPagamento = nextPago ? 'pago' : 'pendente';
     financeiro.pagoEm = nextPago ? new Date().toISOString() : null;
+    financeiro.valorTotal = totalCobrar;
+    financeiro.valorRecebido = nextPago ? totalCobrar : 0;
+    financeiro.valorPago = nextPago ? totalCobrar : 0;
+    financeiro.valorEmAberto = nextPago ? 0 : totalCobrar;
 
-    const totalCobrar = Number(current.total_cobrar || 0);
     const totalPago = nextPago ? totalCobrar : 0;
     const valorEmAberto = nextPago ? 0 : totalCobrar;
 
@@ -832,8 +890,8 @@ app.get('/api/expenses', async (req, res) => {
       descricao: r.descricao,
       categoria: r.categoria,
       valor: Number(r.valor),
-      data: r.data ? r.data.toString().slice(0, 10) : '',
-      dataVencimento: r.data_vencimento ? r.data_vencimento.toString().slice(0, 10) : '',
+      data: toIsoDate(r.data) || new Date().toISOString().slice(0, 10),
+      dataVencimento: toIsoDate(r.data_vencimento) || toIsoDate(r.data) || '',
       formaPagamento: r.forma_pagamento,
       status: r.status,
       observacao: r.observacao
@@ -849,6 +907,9 @@ app.post('/api/expenses', async (req, res) => {
   try {
     const d = req.body;
     if (!d.id || !d.descricao) return res.status(400).json({ error: 'ID e Descrição são obrigatórios' });
+
+    const expDate = toIsoDate(d.data) || new Date().toISOString().slice(0, 10);
+    const expVenc = toIsoDate(d.dataVencimento) || expDate;
 
     const sql = `
       INSERT INTO tb_despesas (id, descricao, categoria, valor, data, data_vencimento, forma_pagamento, status, observacao)
@@ -871,8 +932,8 @@ app.post('/api/expenses', async (req, res) => {
       d.descricao,
       d.categoria || 'Geral',
       d.valor || 0,
-      d.data || new Date().toISOString().slice(0, 10),
-      d.dataVencimento || d.data || new Date().toISOString().slice(0, 10),
+      expDate,
+      expVenc,
       d.formaPagamento || 'pix',
       d.status || 'pago',
       d.observacao || ''
@@ -926,7 +987,7 @@ app.get('/api/purchases', async (req, res) => {
       fornecedor: r.fornecedor,
       fornecedorId: r.fornecedor_id,
       nf: r.nf,
-      data: r.data ? r.data.toString().slice(0, 10) : '',
+      data: toIsoDate(r.data) || new Date().toISOString().slice(0, 10),
       qtdFrascos: Number(r.qtd_frascos || 0),
       valorTotal: Number(r.valor_total || 0),
       status: r.status,
@@ -944,6 +1005,8 @@ app.post('/api/purchases', async (req, res) => {
   try {
     const p = req.body;
     if (!p.id || !p.fornecedor) return res.status(400).json({ error: 'ID e Fornecedor são obrigatórios' });
+
+    const purDate = toIsoDate(p.data) || new Date().toISOString().slice(0, 10);
 
     const sql = `
       INSERT INTO tb_compras_estoque (id, fornecedor, fornecedor_id, nf, data, qtd_frascos, valor_total, status, forma_pagamento, observacao)
@@ -967,7 +1030,7 @@ app.post('/api/purchases', async (req, res) => {
       p.fornecedor,
       p.fornecedorId || 'FORN-001',
       p.nf || '',
-      p.data || new Date().toISOString().slice(0, 10),
+      purDate,
       p.qtdFrascos || 0,
       p.valorTotal || 0,
       p.status || 'pago',

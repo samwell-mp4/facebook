@@ -132,21 +132,46 @@ export default function AccountingManager({
     });
   };
 
-  const formatDate = (str) => {
-    if (!str) return '-';
-    try {
-      const d = new Date(str + (str.length <= 10 ? 'T12:00:00' : ''));
-      return d.toLocaleDateString('pt-BR');
-    } catch {
-      return str;
+  const parseSafeDate = (val) => {
+    if (!val) return null;
+    if (val instanceof Date) {
+      return isNaN(val.getTime()) ? null : val;
     }
+    const str = String(val).trim();
+    if (!str || str === 'Invalid Date' || str === 'null' || str === 'undefined') return null;
+
+    // Formato ISO: YYYY-MM-DD
+    const isoMatch = str.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (isoMatch) {
+      return new Date(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3]), 12, 0, 0);
+    }
+
+    // Formato brasileiro: DD/MM/YYYY
+    const brMatch = str.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
+    if (brMatch) {
+      return new Date(Number(brMatch[3]), Number(brMatch[2]) - 1, Number(brMatch[1]), 12, 0, 0);
+    }
+
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+  };
+
+  const formatDate = (str) => {
+    const d = parseSafeDate(str);
+    if (!d) return '-';
+    const dia = String(d.getDate()).padStart(2, '0');
+    const mes = String(d.getMonth() + 1).padStart(2, '0');
+    const ano = d.getFullYear();
+    return `${dia}/${mes}/${ano}`;
   };
 
   const getDaysDiff = (targetDate) => {
-    if (!targetDate) return 0;
-    const d1 = new Date(todayStr);
-    const d2 = new Date(targetDate.slice(0, 10));
-    return Math.floor((d1 - d2) / (1000 * 60 * 60 * 24));
+    const d2 = parseSafeDate(targetDate);
+    if (!d2) return 0;
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0);
+    const diffDays = Math.floor((today.getTime() - d2.getTime()) / (1000 * 60 * 60 * 24));
+    return isNaN(diffDays) ? 0 : diffDays;
   };
 
   // 1. Process Financial Records from Orders (Vendas / Contas a Receber)
@@ -172,24 +197,29 @@ export default function AccountingManager({
         const lucro = totalVenda - totalCusto;
         const margem = totalCusto > 0 ? (lucro / totalCusto) * 100 : 0;
 
-        const totalPago = o.totalPago !== undefined && o.totalPago !== null
-          ? Number(o.totalPago)
-          : (o.financeiro?.valorRecebido !== undefined && o.financeiro?.valorRecebido !== null
-              ? Number(o.financeiro.valorRecebido)
-              : (o.financeiro?.statusPagamento === 'pago' ? totalVenda : 0));
+        const isPagoExplicit = o.financeiro?.statusPagamento === 'pago';
+        const totalPago = isPagoExplicit
+          ? totalVenda
+          : (o.totalPago !== undefined && o.totalPago !== null
+              ? Number(o.totalPago)
+              : (o.financeiro?.valorRecebido !== undefined && o.financeiro?.valorRecebido !== null
+                  ? Number(o.financeiro.valorRecebido)
+                  : 0));
 
-        const valorEmAberto = o.valorEmAberto !== undefined && o.valorEmAberto !== null
-          ? Number(o.valorEmAberto)
-          : (o.financeiro?.valorEmAberto !== undefined && o.financeiro?.valorEmAberto !== null
-              ? Number(o.financeiro.valorEmAberto)
-              : Math.max(0, Math.round((totalVenda - totalPago) * 100) / 100));
+        const valorEmAberto = isPagoExplicit
+          ? 0
+          : (o.valorEmAberto !== undefined && o.valorEmAberto !== null
+              ? Number(o.valorEmAberto)
+              : (o.financeiro?.valorEmAberto !== undefined && o.financeiro?.valorEmAberto !== null
+                  ? Number(o.financeiro.valorEmAberto)
+                  : Math.max(0, Math.round((totalVenda - totalPago) * 100) / 100)));
 
-        const isPago = valorEmAberto === 0 && (totalVenda > 0 || o.financeiro?.statusPagamento === 'pago');
-        const isParcial = totalPago > 0 && valorEmAberto > 0;
+        const isPago = isPagoExplicit || (valorEmAberto === 0 && totalVenda > 0);
+        const isParcial = !isPago && totalPago > 0 && valorEmAberto > 0;
 
         const dueDate = o.dataVencimento || o.dataPedido || todayStr;
         const daysOver = getDaysDiff(dueDate);
-        const isAtrasado = valorEmAberto > 0 && daysOver > 0;
+        const isAtrasado = !isPago && valorEmAberto > 0 && daysOver > 0;
 
         return {
           orderId: o.id,
@@ -984,7 +1014,7 @@ export default function AccountingManager({
 
                 {filteredExpenses.length === 0 && (
                   <tr>
-                    <td colSpan={8} className="empty-table-cell">
+                    <td colSpan={9} className="empty-table-cell">
                       <div className="empty-state-wrap">
                         <Receipt size={28} opacity={0.3} />
                         <p>Nenhuma despesa registrada com os filtros atuais.</p>

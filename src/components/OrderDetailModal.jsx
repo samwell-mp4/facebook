@@ -38,6 +38,38 @@ const STATUS_MAP = {
   cancelado: { label: 'Cancelado', color: '#ef4444', bg: 'rgba(239, 68, 68, 0.15)', icon: AlertCircle }
 };
 
+function toIsoDateInput(val) {
+  if (!val) return '';
+  if (val instanceof Date) {
+    if (isNaN(val.getTime())) return '';
+    const y = val.getFullYear();
+    const m = String(val.getMonth() + 1).padStart(2, '0');
+    const d = String(val.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  }
+  const str = String(val).trim();
+  if (!str || str === 'Invalid Date' || str === 'null' || str === 'undefined') return '';
+  const isoMatch = str.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (isoMatch) return `${isoMatch[1]}-${isoMatch[2]}-${isoMatch[3]}`;
+  const brMatch = str.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
+  if (brMatch) return `${brMatch[3]}-${brMatch[2]}-${brMatch[1]}`;
+  const d = new Date(str);
+  if (!isNaN(d.getTime())) {
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  }
+  return '';
+}
+
+function formatDisplayDate(val) {
+  const iso = toIsoDateInput(val);
+  if (!iso) return '-';
+  const parts = iso.split('-');
+  return `${parts[2]}/${parts[1]}/${parts[0]}`;
+}
+
 export default function OrderDetailModal({
   order,
   initialMode = 'view', // 'view' or 'edit'
@@ -69,8 +101,12 @@ export default function OrderDetailModal({
 
   // Order Details Editable State
   const [status, setStatus] = useState(order.status || 'pendente');
-  const [dataPedido, setDataPedido] = useState(order.dataPedido || new Date().toISOString().slice(0, 10));
-  const [dataVencimento, setDataVencimento] = useState(order.dataVencimento || '');
+  const [dataPedido, setDataPedido] = useState(() => {
+    return toIsoDateInput(order.dataPedido) || toIsoDateInput(order.createdAt) || new Date().toISOString().slice(0, 10);
+  });
+  const [dataVencimento, setDataVencimento] = useState(() => {
+    return toIsoDateInput(order.dataVencimento);
+  });
   const [formaPagamento, setFormaPagamento] = useState(order.formaPagamento || order.paymentMethod || 'pix');
   const [observacoes, setObservacoes] = useState(order.observacoes || '');
 
@@ -199,13 +235,24 @@ export default function OrderDetailModal({
       return;
     }
 
+    const cleanDataPedido = toIsoDateInput(dataPedido) || toIsoDateInput(order.dataPedido) || new Date().toISOString().slice(0, 10);
+    const cleanDataVencimento = toIsoDateInput(dataVencimento) || null;
+
+    const totalCobrar = Math.round(totals.totalVenda * 100) / 100;
+    const isNowPago = isPago || order.financeiro?.statusPagamento === 'pago';
+    const totalPago = isNowPago ? totalCobrar : Number(order.totalPago ?? order.financeiro?.valorRecebido ?? 0);
+    const valorEmAberto = isNowPago ? 0 : Math.max(0, Math.round((totalCobrar - totalPago) * 100) / 100);
+
     const updated = {
       ...order,
       status,
-      dataPedido,
-      dataVencimento,
+      dataPedido: cleanDataPedido,
+      dataVencimento: cleanDataVencimento,
       formaPagamento,
       observacoes: observacoes.trim(),
+      totalCobrar,
+      totalPago,
+      valorEmAberto,
       cliente: {
         ...order.cliente,
         nome: nome.trim(),
@@ -222,18 +269,21 @@ export default function OrderDetailModal({
       totais: {
         ...order.totais,
         qtdItens: totals.totalQtd,
-        valorTotal: totals.totalVenda,
+        valorTotal: totalCobrar,
         custoTotal: totals.totalCusto,
         lucroBruto: totals.lucroBruto,
         margemLucro: totals.margem
       },
       financeiro: {
         ...order.financeiro,
-        valorTotal: totals.totalVenda,
+        valorTotal: totalCobrar,
         valorCusto: totals.totalCusto,
         lucroBruto: totals.lucroBruto,
         margemLucro: totals.margem,
-        valorEmAberto: isPago ? 0 : totals.totalVenda
+        valorRecebido: totalPago,
+        valorPago: totalPago,
+        valorEmAberto: valorEmAberto,
+        statusPagamento: valorEmAberto === 0 ? 'pago' : (totalPago > 0 ? 'parcial' : 'pendente')
       }
     };
 
@@ -246,7 +296,7 @@ export default function OrderDetailModal({
   const handleShareWhatsApp = () => {
     let msg = `💎 *SNACK STORE BH — DETALHES DO PEDIDO #${order.id}* 💎\n`;
     msg += `👤 *Cliente:* ${nome}\n`;
-    msg += `📅 *Data:* ${new Date(dataPedido).toLocaleDateString('pt-BR')}\n`;
+    msg += `📅 *Data:* ${formatDisplayDate(dataPedido)}\n`;
     msg += `🚚 *Status:* ${statusConfig.label}\n\n`;
     msg += `📦 *ITENS DO PEDIDO:*\n`;
 
@@ -516,7 +566,7 @@ export default function OrderDetailModal({
                   />
                 ) : (
                   <span style={{ fontSize: '0.82rem', color: '#fff' }}>
-                    {new Date(dataPedido + 'T12:00:00').toLocaleDateString('pt-BR')}
+                    {formatDisplayDate(dataPedido)}
                   </span>
                 )}
               </div>
@@ -532,7 +582,7 @@ export default function OrderDetailModal({
                   />
                 ) : (
                   <span style={{ fontSize: '0.82rem', color: '#fbbf24', fontWeight: 600 }}>
-                    {dataVencimento ? new Date(dataVencimento + 'T12:00:00').toLocaleDateString('pt-BR') : 'À vista / A combinar'}
+                    {dataVencimento ? formatDisplayDate(dataVencimento) : 'À vista / A combinar'}
                   </span>
                 )}
               </div>
